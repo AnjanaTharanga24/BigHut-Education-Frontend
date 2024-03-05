@@ -9,10 +9,10 @@ export default function Sidebar() {
   };
 
   return (
-    <nav className={`sidebar ${sidebarOpen ? "open" : "close"}`}>
+    <nav className={`sidebar ${sidebarOpen ? "open" : "close"} shadow p-3 mb-5 bg-white rounded`}>
       {/* Sidebar content goes here */}
       <div>
-        <header>
+        <header className="">
           <div className="image-text">
             <span className="image">
               <img src="logo.png" alt="" />

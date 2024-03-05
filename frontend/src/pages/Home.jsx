@@ -13,7 +13,7 @@ export default function NewSidebar() {
     <div>
       <>
         <div className="layout-wrapper layout-content-navbar">
-          <div className="layout-container">
+          <div className="layout-container" style={{backgroundColor:"white"}}>
             <Sidebar />
             <section className="home">
               <div className="content " content>
