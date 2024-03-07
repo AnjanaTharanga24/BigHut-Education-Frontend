@@ -17,7 +17,7 @@ export default function Contents() {
       question:
         "මව් පුවරුව මත ඇති .................... පරිගණකයක ක්‍රියාකාරීත්වය විදැහීම (expand) සදහා භාවිත කරයි. ඉහත වගන්තියේ හිස්තැන පිරවීම සදහා වඩාත් සුදුසු වන්නේ පහත සදහන් කවරක්ද?",
       options: ["බසය (Bus)", "ඔරලෝසුව (Clock)", "RAM", "විවරය", "ROM"],
-      correctAnswer: 1, // Index of the correct answer in the options array
+      correctAnswer: 4, // Index of the correct answer in the options array
     },
     {
       question: "පහත දැක්වෙන කුමන වගන්තිය සත්‍ය වේ ද?",
@@ -28,7 +28,7 @@ export default function Contents() {
         "ප්‍රථම පරිගණක ක්‍රමලේඛකයා (Programmer) ලෙස සලකනුයේ ඇලන් ටියුරින් ( Alan Turing) ය.",
         "ඇබකසය (Abacus) පලමු ගණක යන්ත්‍රය ලෙස විශ්වාස කරනු ලැබේ.",
       ],
-      correctAnswer: 1, // Index of the correct answer in the options array
+      correctAnswer: 5, // Index of the correct answer in the options array
     },
     {
       question: "පලමුවන පරම්පරාවේ පරිගණක සදහා පාදක වූයේ,",
@@ -39,29 +39,33 @@ export default function Contents() {
         "ට්‍රාන්සිස්ටර වේ.",
         "රික්ත නළ වේ.",
       ],
-      correctAnswer: 1, // Index of the correct answer in the options array
+      correctAnswer: 5, // Index of the correct answer in the options array
     },
+
     {
-      question:
-        "මව් පුවරුව මත ඇති .................... පරිගණකයක ක්‍රියාකාරීත්වය විදැහීම (expand) සදහා භාවිත කරයි. ඉහත වගන්තියේ හිස්තැන පිරවීම සදහා වඩාත් සුදුසු වන්නේ පහත සදහන් කවරක්ද?",
-      options: ["බසය (Bus)", "ඔරලෝසුව (Clock)", "RAM", "විවරය", "ROM"],
-      correctAnswer: 1, // Index of the correct answer in the options array
-    },
+        question:
+          "ක්‍රමලේකඛන භාෂාවන්හි භාවිත වන සම්පාදක හා අර්ථ වින්‍යාසක (compilers and interpreters) සම්බන්දයෙන් පහත දැක්වෙන වගන්ති සලකන්න. A - Assembly භාෂාවෙන් ලියා ඇති ක්‍රමලේඛයක් ක්‍රියාත්මක කිරීම සදහා සම්පාදක හෝ අර්ථ වින්‍යාසක අවශ්‍ය නොවේ. B -  යන්ත්‍ර කේතවලින් (machine code) ඇති ක්‍රමලේඛයක් ක්‍රියාත්මක කිරීම සදහා සම්පාදක අත්‍යාවශ්‍ය නොවේ. C -  ක්‍රියාත්මක කල හැකි (executable) ක්‍රමලේඛයක් සම්පාදකයක් මගින් මගින් මූල ක්‍රමලේඛයක් (source program) බවට පරිවර්තනය කරනු ලබයි.  ඉහත වගන්ති අතුරෙන් නිවැරදි වන්නේ,          ",
+        options: ["A පමණි.", "B පමණි.", "C පමණි. ", "A හා B පමණි.", "B හා C පමණි."],
+        correctAnswer: 2, // Index of the correct answer in the options array
+      },
+
+   
+
     // Add more questions here as needed
   ];
 
   const handleNextQuestion = () => {
     // Update the current question index
-    setCurrentQuestion((prevQuestion) =>
-      Math.min(prevQuestion + 1, questions.length - 1)
-    );
+    setCurrentQuestion((prevQuestion) => prevQuestion + 1);
   };
+  
 
   // Function to handle clicking the "Previous" button
   const handlePreviousQuestion = () => {
     // Update the current question index
     setCurrentQuestion((prevQuestion) => Math.max(prevQuestion - 1, 0));
   };
+
 
   return (
     <div>
@@ -82,7 +86,7 @@ export default function Contents() {
                   className="mcq10f10"
                   style={{ fontWeight: "bold", fontSize: "20px" }}
                 >
-                  MCQ 1 of 10
+                  MCQ {currentQuestion} of {questions.length}
                 </span>
               </div>
 
@@ -107,7 +111,9 @@ export default function Contents() {
                           className="me-3 "
                           type="radio"
                           name="option"
-                          value={`option${index + 1}`}
+                          value={option}
+                          
+
                         />
                         <span className="fs-5">{option}</span>
                       </label>
@@ -161,7 +167,7 @@ export default function Contents() {
               <button
                 className="btn btn-outline-success rounded-pill"
                 onClick={handleNextQuestion}
-                disabled={currentQuestion === questions.length - 1}
+                disabled={currentQuestion === questions.length}
               >
                 <span
                   className="mx-2"
