@@ -5,7 +5,7 @@ import "../css/home.css";
 import Contents from "../component/Contents";
 
 
-export default function NewSidebar() {
+export default function Home() {
 
 
 
