@@ -1,3 +1,6 @@
+
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +38,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: UN Bindumathi ;
+  src: url(../public/un-bindumathi.ttf);
+}
+
+.App{
+  font-family: UN Bindumathi;
 }

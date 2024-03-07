@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../css/sidebar.css";
+import "../css/home.css"
 
 export default function Sidebar() {
   const [sidebarOpen, setSidebarOpen] = useState(true); // Track sidebar open/close state
