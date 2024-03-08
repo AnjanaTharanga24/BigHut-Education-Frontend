@@ -1,11 +1,8 @@
-import React from "react";
-import "../css/sidebar.css";
-import Sidebar from "../component/Sidebar";
-import "../css/home.css";
-import Contents from "../component/Contents";
-import LandingPage from "../component/LandingPage";
+import React from 'react'
+import Sidebar from './Sidebar'
+import SelectStreamAL from './SelectStreamAL'
 
-export default function Home() {
+export default function Grade12() {
   return (
     <div className="layout-wrapper layout-content-navbar">
       <div className="layout-container" style={{ backgroundColor: "white" }}>
@@ -15,13 +12,12 @@ export default function Home() {
             <div style={{ paddingRight: "300px" }}>
               <div className="mt-4 mb-4"></div>
               <div className="content-body" style={{marginLeft:"-50px"}}>
-                {/* <Contents /> */}
-                <LandingPage/>
+                 <SelectStreamAL/>
               </div>
             </div>
           </div>
         </section>
       </div>
     </div>
-  );
+  )
 }

@@ -181,50 +181,41 @@ export default function Contents() {
         </div>
       ),
       options: [
-        (
-          <div className=" d-flex flex-column">
-            <span className="fs-4">පහත නිවැරදි පින්තූරය තෝරන්න.</span>
-            <img
-              src={img1}
-              alt="Option 1"
-              style={{ height: "200px", width: "300px" }}
-            />
-          </div>
-        ),
-        (
-          <div className=" d-flex flex-column">
-            <span className="fs-4">පහත නිවැරදි පින්තූරය තෝරන්න.</span>
-            <img
-              src={img2}
-              alt="Option 2"
-              style={{ height: "200px", width: "300px" }}
-            />
-          </div>
-        ),
-        (
-          <div className=" d-flex flex-column">
-            <span className="fs-4">පහත නිවැරදි පින්තූරය තෝරන්න.</span>
-            <img
-              src={img3}
-              alt="Option 3"
-              style={{ height: "200px", width: "300px" }}
-            />
-          </div>
-        ),
-        (
-          <div className=" d-flex flex-column">
-            <span className="fs-4">පහත නිවැරදි පින්තූරය තෝරන්න.</span>
-            <img
-              src={img4}
-              alt="Option 4"
-              style={{ height: "200px", width: "300px" }}
-            />
-          </div>
-        ),
+        <div className=" d-flex flex-column">
+          <span className="fs-4">පහත නිවැරදි පින්තූරය තෝරන්න.</span>
+          <img
+            src={img1}
+            alt="Option 1"
+            style={{ height: "200px", width: "300px" }}
+          />
+        </div>,
+        <div className=" d-flex flex-column">
+          <span className="fs-4">පහත නිවැරදි පින්තූරය තෝරන්න.</span>
+          <img
+            src={img2}
+            alt="Option 2"
+            style={{ height: "200px", width: "300px" }}
+          />
+        </div>,
+        <div className=" d-flex flex-column">
+          <span className="fs-4">පහත නිවැරදි පින්තූරය තෝරන්න.</span>
+          <img
+            src={img3}
+            alt="Option 3"
+            style={{ height: "200px", width: "300px" }}
+          />
+        </div>,
+        <div className=" d-flex flex-column">
+          <span className="fs-4">පහත නිවැරදි පින්තූරය තෝරන්න.</span>
+          <img
+            src={img4}
+            alt="Option 4"
+            style={{ height: "200px", width: "300px" }}
+          />
+        </div>,
       ],
       correctAnswer: 2,
     },
-    
   ];
 
   const handleNextQuestion = () => {
@@ -262,25 +253,21 @@ export default function Contents() {
         </div>
       );
     } else {
-   
     }
   };
 
   return (
     <div>
       <div className="d-flex justify-content-center ">
-        <div
-          className=""
-          style={{ width: "400px" , marginRight:"1000px" }}
-        >
-        <div className="" style={{width:"700px"}}>
-        <span className="fs-3 "  >INFORMATION AND COMMUNICATION TECHNOLOGY</span>
-
-        </div>
-        <div className="" style={{marginRight:"100px"}}>
-        <span className="fs-3"  >02 පරිගණකයේ පරිණාමය</span>
-
-        </div>
+        <div className="" style={{ width: "400px", marginRight: "1000px" }}>
+          <div className="" style={{ width: "700px" }}>
+            <span className="fs-3 ">
+              INFORMATION AND COMMUNICATION TECHNOLOGY
+            </span>
+          </div>
+          <div className="" style={{ marginRight: "100px" }}>
+            <span className="fs-3">02 පරිගණකයේ පරිණාමය</span>
+          </div>
         </div>
       </div>
       <div
@@ -304,22 +291,22 @@ export default function Contents() {
                   className=" d-flex justify-content-between"
                   style={{ marginTop: "20px" }}
                 >
-                 <div>
-  {currentQuestion > 1 && ( // Check if it's not the first question
-    <button
-      className="btn btn-outline-danger rounded-pill "
-      onClick={handlePreviousQuestion}
-    >
-      <FontAwesomeIcon icon={faArrowLeft} />{" "}
-      <span
-        className="mx-2"
-        style={{ fontWeight: "bold", fontSize: "15px" }}
-      >
-        PREVIOUS MCQ
-      </span>
-    </button>
-  )}
-</div>
+                  <div>
+                    {currentQuestion > 1 && ( // Check if it's not the first question
+                      <button
+                        className="btn btn-outline-danger rounded-pill "
+                        onClick={handlePreviousQuestion}
+                      >
+                        <FontAwesomeIcon icon={faArrowLeft} />{" "}
+                        <span
+                          className="mx-2"
+                          style={{ fontWeight: "bold", fontSize: "15px" }}
+                        >
+                          PREVIOUS MCQ
+                        </span>
+                      </button>
+                    )}
+                  </div>
 
                   <div className="fs-5" style={{ marginBottom: "-80px" }}>
                     {handleWrongAnswerFeedback()}
@@ -368,7 +355,9 @@ export default function Contents() {
                           checked={selectedAnswer === index}
                           onChange={() => handleOptionSelect(index)}
                         />
-                        <span className="fs-4" style={{marginTop:"-5px"}}>{option}</span>
+                        <span className="fs-4" style={{ marginTop: "-5px" }}>
+                          {option}
+                        </span>
                       </label>
                     )
                   )}
