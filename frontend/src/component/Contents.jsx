@@ -8,6 +8,11 @@ import {
   faHandPointLeft,
   faCircleCheck,
 } from "@fortawesome/free-solid-svg-icons";
+import img1 from "../images/img1.jpg";
+import img2 from "../images/img2.jpg";
+import img3 from "../images/img3.jpg";
+import img4 from "../images/img4.jpg";
+import img5 from "../images/img5.jpg";
 
 export default function Contents() {
   const [currentQuestion, setCurrentQuestion] = useState(1);
@@ -44,6 +49,7 @@ export default function Contents() {
       ],
       correctAnswer: 5,
     },
+
     {
       question:
         "ක්‍රමලේකඛන භාෂාවන්හි භාවිත වන සම්පාදක හා අර්ථ වින්‍යාසක (compilers and interpreters) සම්බන්දයෙන් පහත දැක්වෙන වගන්ති සලකන්න. A - Assembly භාෂාවෙන් ලියා ඇති ක්‍රමලේඛයක් ක්‍රියාත්මක කිරීම සදහා සම්පාදක හෝ අර්ථ වින්‍යාසක අවශ්‍ය නොවේ. B -  යන්ත්‍ර කේතවලින් (machine code) ඇති ක්‍රමලේඛයක් ක්‍රියාත්මක කිරීම සදහා සම්පාදක අත්‍යාවශ්‍ය නොවේ. C -  ක්‍රියාත්මක කල හැකි (executable) ක්‍රමලේඛයක් සම්පාදකයක් මගින් මගින් මූල ක්‍රමලේඛයක් (source program) බවට පරිවර්තනය කරනු ලබයි.  ඉහත වගන්ති අතුරෙන් නිවැරදි වන්නේ,          ",
@@ -56,6 +62,169 @@ export default function Contents() {
       ],
       correctAnswer: 2,
     },
+
+    {
+      question: "පහත දැක්වෙන රූපයක් තෝරන්න.. ",
+      image: (
+        <img
+          src={img5}
+          alt="Option 1"
+          style={{ height: "200px", width: "600px" }}
+        />
+      ),
+
+      options: [
+        <img
+          src={img1}
+          alt="Option 1"
+          style={{ height: "200px", width: "300px" }}
+        />,
+        <img
+          src={img2}
+          alt="Option 2"
+          style={{ height: "200px", width: "300px" }}
+        />,
+        <img
+          src={img3}
+          alt="Option 3"
+          style={{ height: "200px", width: "300px" }}
+        />,
+        <img
+          src={img4}
+          alt="Option 4"
+          style={{ height: "200px", width: "300px" }}
+        />,
+      ],
+      correctAnswer: 2,
+    },
+
+    {
+      question: (
+        <div className="mb-3">
+          <div className="fs-4 ">
+            පහත දැක්වෙන රූප භාවිතා කර නිවැරදි පිළිතුර තෝරන්න
+          </div>
+          <div className="d-flex justify-content-start">
+            <div className="d-flex flex-column">
+              <img
+                src={img5}
+                alt="Question Image"
+                style={{ height: "200px", width: "250px" }}
+              />
+              <span className="fs-4" style={{ marginLeft: "120px" }}>
+                A
+              </span>
+            </div>
+
+            <div className="d-flex flex-column">
+              <img
+                src={img1}
+                alt="Option 1"
+                style={{ height: "200px", width: "250px" }}
+              />
+              <span className="fs-4" style={{ marginLeft: "120px" }}>
+                B
+              </span>
+            </div>
+
+            <div className="d-flex flex-column">
+              <img
+                src={img2}
+                alt="Option 2"
+                style={{ height: "200px", width: "250px" }}
+              />
+              <span className="fs-4" style={{ marginLeft: "120px" }}>
+                C
+              </span>
+            </div>
+
+            <div className="d-flex flex-column">
+              <img
+                src={img3}
+                alt="Option 3"
+                style={{ height: "200px", width: "250px" }}
+              />
+
+              <span className="fs-4" style={{ marginLeft: "120px" }}>
+                D
+              </span>
+            </div>
+          </div>
+        </div>
+      ),
+
+      options: [
+        "A පමණි.",
+        "B පමණි.",
+        "D පමණි. ",
+        "A හා B පමණි.",
+        "B හා C පමණි.",
+      ],
+      correctAnswer: 2,
+    },
+
+    {
+      question: (
+        <div className="mb-3">
+          <div className="fs-4 ">
+            පහත දැක්වෙන රූප භාවිතා කර නිවැරදි පිළිතුර තෝරන්න
+          </div>
+          <div className="d-flex justify-content-start">
+            <div className="d-flex flex-column">
+              <img
+                src={img5}
+                alt="Question Image"
+                style={{ height: "200px", width: "600px" }}
+              />
+            </div>
+          </div>
+        </div>
+      ),
+      options: [
+        (
+          <div className=" d-flex flex-column">
+            <span className="fs-4">පහත නිවැරදි පින්තූරය තෝරන්න.</span>
+            <img
+              src={img1}
+              alt="Option 1"
+              style={{ height: "200px", width: "300px" }}
+            />
+          </div>
+        ),
+        (
+          <div className=" d-flex flex-column">
+            <span className="fs-4">පහත නිවැරදි පින්තූරය තෝරන්න.</span>
+            <img
+              src={img2}
+              alt="Option 2"
+              style={{ height: "200px", width: "300px" }}
+            />
+          </div>
+        ),
+        (
+          <div className=" d-flex flex-column">
+            <span className="fs-4">පහත නිවැරදි පින්තූරය තෝරන්න.</span>
+            <img
+              src={img3}
+              alt="Option 3"
+              style={{ height: "200px", width: "300px" }}
+            />
+          </div>
+        ),
+        (
+          <div className=" d-flex flex-column">
+            <span className="fs-4">පහත නිවැරදි පින්තූරය තෝරන්න.</span>
+            <img
+              src={img4}
+              alt="Option 4"
+              style={{ height: "200px", width: "300px" }}
+            />
+          </div>
+        ),
+      ],
+      correctAnswer: 2,
+    },
+    
   ];
 
   const handleNextQuestion = () => {
@@ -77,25 +246,41 @@ export default function Contents() {
   };
 
   const handleWrongAnswerFeedback = () => {
-    if (correctAnswerSelected && selectedAnswer === questions[currentQuestion - 1].correctAnswer - 1) {
+    if (
+      correctAnswerSelected &&
+      selectedAnswer === questions[currentQuestion - 1].correctAnswer - 1
+    ) {
       return (
-        <div className="alert alert-success" role="alert" style={{marginTop:"-10px"}}>
+        <div
+          className="alert alert-success"
+          role="alert"
+          style={{ marginTop: "-10px" }}
+        >
           <span className="fs-4 p-3">
             <FontAwesomeIcon icon={faCircleCheck} /> ඔබගේ පිළිතුර නිවැරදියි
           </span>
         </div>
       );
     } else {
-      return null; // Return null when correct answer is not selected
+   
     }
   };
-  
 
   return (
     <div>
       <div className="d-flex justify-content-center ">
-        <div className="bg-dark shadow-sm mt-1 bg-white rounded" style={{ width: "400px" }}>
-          <span className="fs-2">02 පරිගණකයේ පරිණාමය</span>
+        <div
+          className=""
+          style={{ width: "400px" , marginRight:"1000px" }}
+        >
+        <div className="" style={{width:"700px"}}>
+        <span className="fs-3 "  >INFORMATION AND COMMUNICATION TECHNOLOGY</span>
+
+        </div>
+        <div className="" style={{marginRight:"100px"}}>
+        <span className="fs-3"  >02 පරිගණකයේ පරිණාමය</span>
+
+        </div>
         </div>
       </div>
       <div
@@ -119,78 +304,78 @@ export default function Contents() {
                   className=" d-flex justify-content-between"
                   style={{ marginTop: "20px" }}
                 >
-                    <div>
-                  <button
-                    className="btn btn-outline-danger rounded-pill "
-                    onClick={handlePreviousQuestion}
-                    disabled={currentQuestion === 1}
-                  >
-                    <FontAwesomeIcon icon={faArrowLeft} />{" "}
-                    <span
-                      className="mx-2"
-                      style={{ fontWeight: "bold", fontSize: "15px" }}
-                    >
-                      PREVIOUS MCQ
-                    </span>
-                  </button>
-                  </div>
-
-                  <div className="fs-5" style={{marginBottom:"-80px"}}>
-                  {handleWrongAnswerFeedback()}
-                  </div>
-
                  <div>
-                  <button
-                    className="btn btn-outline-success rounded-pill"
-                    onClick={handleNextQuestion}
-                    disabled={currentQuestion === questions.length}
-                  >
-                    <span
-                      className="mx-2"
-                      style={{ fontWeight: "bold", fontSize: "15px" }}
+  {currentQuestion > 1 && ( // Check if it's not the first question
+    <button
+      className="btn btn-outline-danger rounded-pill "
+      onClick={handlePreviousQuestion}
+    >
+      <FontAwesomeIcon icon={faArrowLeft} />{" "}
+      <span
+        className="mx-2"
+        style={{ fontWeight: "bold", fontSize: "15px" }}
+      >
+        PREVIOUS MCQ
+      </span>
+    </button>
+  )}
+</div>
+
+                  <div className="fs-5" style={{ marginBottom: "-80px" }}>
+                    {handleWrongAnswerFeedback()}
+                  </div>
+
+                  <div>
+                    <button
+                      className="btn btn-outline-success rounded-pill"
+                      onClick={handleNextQuestion}
+                      disabled={currentQuestion === questions.length}
                     >
-                      {" "}
-                      NEXT MCQ{" "}
-                    </span>{" "}
-                    <FontAwesomeIcon icon={faArrowRight} />
-                  </button>
+                      <span
+                        className="mx-2"
+                        style={{ fontWeight: "bold", fontSize: "15px" }}
+                      >
+                        {" "}
+                        NEXT MCQ{" "}
+                      </span>{" "}
+                      <FontAwesomeIcon icon={faArrowRight} />
+                    </button>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-dark shadow-sm p-2 mt-4 bg-white rounded ">
-                <div className=" p-2 fs-4" style={{ textAlign: "justify" }}>
+              <div className="bg-dark shadow-sm p-2 mt-4 bg-white rounded">
+                <div className="p-2 fs-4" style={{ textAlign: "justify" }}>
                   {questions[currentQuestion - 1].question}
                 </div>
-
+                {questions[currentQuestion - 1].image && (
+                  <div className="mb-4 p-3 d-flex justify-content-start">
+                    {questions[currentQuestion - 1].image}
+                  </div>
+                )}
                 <div
-                  className="mb-4 p-3  d-flex flex-column"
+                  className="mb-4 p-2 d-flex flex-column  "
                   style={{ textAlign: "justify" }}
                 >
-                  {/* Render options dynamically */}
                   {questions[currentQuestion - 1].options.map(
                     (option, index) => (
-                      <label
-                        className="mt-2"
-                        key={index}
-                        style={{ marginRight: "200px" }}
-                      >
+                      <label className="mt-2 d-flex flex-nowrap " key={index}>
                         <input
-                          className="me-3 "
+                          className="radio-button me-2"
                           type="radio"
                           name="option"
                           value={option}
                           checked={selectedAnswer === index}
                           onChange={() => handleOptionSelect(index)}
                         />
-                        <span className="fs-4">{option}</span>
+                        <span className="fs-4" style={{marginTop:"-5px"}}>{option}</span>
                       </label>
                     )
                   )}
                 </div>
               </div>
+
               {/* Display correct answer feedback */}
-           
             </div>
 
             <div
@@ -198,7 +383,9 @@ export default function Contents() {
               style={{ marginTop: "30px" }}
             >
               <button
-                className={`btn ${bookmarked ? 'btn-outline-danger' : 'btn-outline-warning'} rounded-pill`}
+                className={`btn ${
+                  bookmarked ? "btn-outline-danger" : "btn-outline-warning"
+                } rounded-pill`}
                 onClick={handleBookmarkToggle}
               >
                 <FontAwesomeIcon icon={faHeart} />{" "}
@@ -206,7 +393,7 @@ export default function Contents() {
                   className="mx-2"
                   style={{ fontWeight: "bold", fontSize: "15px" }}
                 >
-                  {bookmarked ? 'REMOVE' : 'BOOKMARK'}
+                  {bookmarked ? "REMOVE" : "BOOKMARK"}
                 </span>
               </button>
               <div className="d-flex align-items-center">

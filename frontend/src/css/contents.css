@@ -32,6 +32,11 @@
     margin-right: 10px; /* Add some spacing between the radio button and the label */
   }
 
+ .radio-button {
+    width: 20px;
+    height: 20px;
+  }
+  
   
   
 
