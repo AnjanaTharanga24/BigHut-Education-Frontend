@@ -1,5 +1,5 @@
 import React from 'react'
-import Sidebar from './Sidebar'
+import Sidebar from '../component/Sidebar'
 
 export default function Grade12() {
   return (
@@ -12,7 +12,7 @@ export default function Grade12() {
               <div className="mt-4 mb-4"></div>
               <div className="content-body" style={{marginLeft:"-50px"}}>
                
-                 <h1>this is grade 2 page</h1>
+                 <h1>this is grade 3 page</h1>
               </div>
             </div>
           </div>

@@ -1,6 +1,5 @@
 import React from 'react'
-import Sidebar from './Sidebar'
-import SelectStreamAL from './SelectStreamAL'
+import Sidebar from '../component/Sidebar'
 
 export default function Grade12() {
   return (
@@ -12,7 +11,8 @@ export default function Grade12() {
             <div style={{ paddingRight: "300px" }}>
               <div className="mt-4 mb-4"></div>
               <div className="content-body" style={{marginLeft:"-50px"}}>
-                 <SelectStreamAL/>
+               
+                 <h1>this is grade 5 page</h1>
               </div>
             </div>
           </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Sidebar from "./Sidebar";
+import { Link } from "react-router-dom";
 
 export default function ALMaths() {
   return (
@@ -17,7 +18,7 @@ export default function ALMaths() {
                     style={{
                       borderRadius: "20px 20px 0 0",
                       width: "700px",
-                      height: "600px",
+                      height: "900px",
                       marginLeft: "200px",
                     }}
                   >
@@ -29,53 +30,123 @@ export default function ALMaths() {
                       </div>
 
                       <div>
-                        <div className="">
+                        <div className="" style={{marginLeft:"-40px"}}>
                           <div
-                            className="card shadow-sm p-3 mb-5 bg-white rounded"
+                            className="card bg-light p-2"
                             style={{
-                              borderRadius: "20px 20px 0 0",
-                              height: "60px",
-                              width: "400px",
+                             
+                              height: "160px",
+                              width: "500px",
                               marginLeft: "110px",
+                              borderRadius: "40px 0px 30px 0px",
                             }}
                           >
-                            <span className="fs-3">PHYSICS</span>
+                            <Link to="/physics" style={{ textDecoration: 'none', color: 'inherit' }}>
+                            <div className="d-flex">
+                              <div className="mt-2 rounded-circle text-info" style={{marginLeft:"10px" , backgroundColor:"#cce6ff" , height:"70px" ,width:"70px" , paddingTop:"20px"}}>
+                            <i class='bx bxs-rocket fs-1'></i>
+                            </div>
+                            <div className="d-flex flex-column mt-2" style={{marginLeft:"25px"}}>
+                            <span className="fs-4 " style={{marginRight:"8px" , textDecoration:"none"}}>භෞතික විද්‍යාව (PHYSICS)</span>
+                            <span>සිංහල මාධ්‍ය - නව විෂ‍ය නිර්දේශය</span>
+                            </div>
+                            </div>
+                            </Link>
+
+                            <div className="d-flex " style={{marginTop:"30px" , width:"490px" , marginLeft:"25px"}}>
+                              <span className="text-danger" >බහුවරණ ප්‍රශ්න ගණන</span>
+                              <span className="text-success" style={{paddingLeft:"20px"}} >1097</span>
+                              <div className="" style={{marginLeft:"210px"}} >
+                              <i className='bx bxs-right-arrow-circle fs-3 text-info'></i>
+                              </div>
+                            </div>
                           </div>
 
                           <div
-                            className="card shadow-sm p-3 mb-5 bg-white rounded"
+                            className="card bg-light p-2"
                             style={{
-                              borderRadius: "20px 20px 0 0",
-                              height: "60px",
-                              width: "400px",
+                             
+                              height: "160px",
+                              width: "500px",
                               marginLeft: "110px",
+                              borderRadius: "40px 0px 30px 0px",
                             }}
                           >
-                            <span className="fs-3">BIOLOGY</span>
+                            <div className="d-flex">
+                              <div className="mt-2 rounded-circle text-info" style={{marginLeft:"10px" , backgroundColor:"#cce6ff" , height:"70px" ,width:"70px" , paddingTop:"20px"}}>
+                            <i class='bx bxs-rocket fs-1'></i>
+                            </div>
+                            <div className="d-flex flex-column mt-2" style={{marginLeft:"25px"}}>
+                            <span className="fs-4" style={{marginRight:"40px"}}>ජීව විද්‍යාව (BIOLOGY)</span>
+                            <span>සිංහල මාධ්‍ය - නව විෂ‍ය නිර්දේශය</span>
+                            </div>
+                            </div>
+
+                            <div className="d-flex " style={{marginTop:"30px" , width:"490px" , marginLeft:"25px"}}>
+                              <span className="text-danger" >බහුවරණ ප්‍රශ්න ගණන</span>
+                              <span className="text-success" style={{paddingLeft:"20px"}} >697</span>
+                              <div className="" style={{marginLeft:"210px"}} >
+                              <i className='bx bxs-right-arrow-circle fs-3 text-info'></i>
+                              </div>
+                            </div>
                           </div>
 
                           <div
-                            className="card shadow-sm p-3 mb-5 bg-white rounded"
+                            className="card bg-light p-2"
                             style={{
-                              borderRadius: "20px 20px 0 0",
-                              height: "60px",
-                              width: "400px",
+                             
+                              height: "160px",
+                              width: "500px",
                               marginLeft: "110px",
+                              borderRadius: "40px 0px 30px 0px",
                             }}
                           >
-                            <span className="fs-3">CHEMISTRY</span>
+                            <div className="d-flex">
+                              <div className="mt-2 rounded-circle text-info" style={{marginLeft:"10px" , backgroundColor:"#cce6ff" , height:"70px" ,width:"70px" , paddingTop:"20px"}}>
+                            <i class='bx bxs-rocket fs-1'></i>
+                            </div>
+                            <div className="d-flex flex-column mt-2" style={{marginLeft:"25px"}}>
+                            <span className="fs-4" style={{marginRight:"8px"}}>රසායන විද්‍යාව (CHEMISTRY)</span>
+                            <span style={{marginRight:"30px"}}>සිංහල මාධ්‍ය - නව විෂ‍ය නිර්දේශය</span>
+                            </div>
+                            </div>
+
+                            <div className="d-flex " style={{marginTop:"30px" , width:"490px" , marginLeft:"25px"}}>
+                              <span className="text-danger" >බහුවරණ ප්‍රශ්න ගණන</span>
+                              <span className="text-success" style={{paddingLeft:"20px"}} >695</span>
+                              <div className="" style={{marginLeft:"210px"}} >
+                              <i className='bx bxs-right-arrow-circle fs-3 text-info'></i>
+                              </div>
+                            </div>
                           </div>
 
-                          <div
-                            className="card shadow-sm p-3 mb-5 bg-white rounded"
+                         <div
+                            className="card bg-light p-2"
                             style={{
-                              borderRadius: "20px 20px 0 0",
-                              height: "60px",
-                              width: "400px",
+                             
+                              height: "160px",
+                              width: "500px",
                               marginLeft: "110px",
+                              borderRadius: "40px 0px 30px 0px",
                             }}
                           >
-                            <span className="fs-3">AGRICULTURE SCIENCE</span>
+                            <div className="d-flex " style={{width:"500px"}}>
+                              <div className="mt-2 rounded-circle text-info " style={{marginLeft:"10px" , backgroundColor:"#cce6ff" , height:"70px" ,width:"150px" , paddingTop:"20px"}}>
+                            <i class='bx bxs-rocket fs-1'></i>
+                            </div>
+                            <div className="d-flex flex-column mt-2" style={{marginLeft:"5px" ,width:"800px"}}>
+                            <span className="fs-4" style={{marginRight:"80px"}}>කෘෂිකර්මය (AGRICULTURE)</span>
+                            <span style={{marginRight:"95px"}}>සිංහල මාධ්‍ය - නව විෂ‍ය නිර්දේශය</span>
+                            </div>
+                            </div>
+
+                            <div className="d-flex " style={{marginTop:"30px" , width:"490px" , marginLeft:"25px"}}>
+                              <span className="text-danger" >බහුවරණ ප්‍රශ්න ගණන</span>
+                              <span className="text-success" style={{paddingLeft:"20px"}} >313</span>
+                              <div className="" style={{marginLeft:"210px"}} >
+                              <i className='bx bxs-right-arrow-circle fs-3 text-info'></i>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>

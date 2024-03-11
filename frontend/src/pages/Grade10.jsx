@@ -1,5 +1,5 @@
 import React from 'react'
-import Sidebar from './Sidebar'
+import Sidebar from '../component/Sidebar'
 
 export default function Grade12() {
   return (

@@ -13,6 +13,7 @@ import img2 from "../images/img2.jpg";
 import img3 from "../images/img3.jpg";
 import img4 from "../images/img4.jpg";
 import img5 from "../images/img5.jpg";
+import Sidebar from "./Sidebar";
 
 export default function Contents() {
   const [currentQuestion, setCurrentQuestion] = useState(1);
@@ -257,7 +258,18 @@ export default function Contents() {
   };
 
   return (
-    <div>
+    
+
+
+<div className="layout-wrapper layout-content-navbar">
+<div className="layout-container" style={{ backgroundColor: "white" }}>
+<Sidebar />
+  <section className="home">
+    <div className="content" content>
+      <div style={{ paddingRight: "300px" }}>
+        <div className="mt-4 mb-4"></div>
+        <div className="content-body" style={{marginLeft:"-50px"}}>
+        <div>
       <div className="d-flex justify-content-center ">
         <div className="" style={{ width: "400px", marginRight: "1000px" }}>
           <div className="" style={{ width: "700px" }}>
@@ -404,5 +416,13 @@ export default function Contents() {
         </div>
       </div>
     </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+</div>
+
+
   );
 }
