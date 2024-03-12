@@ -20,7 +20,7 @@ export default function LandingPage() {
             style={{ width: "1000px", marginTop: "-20px" }}
           >
             <Link to="/grade12">
-              <div className="">
+              <div className="" style={{ paddingRight: "20px" }}>
                 <div
                   className="card shadow-sm p-3 mb-5 bg-white rounded"
                   style={{
@@ -29,24 +29,83 @@ export default function LandingPage() {
                     width: "400px",
                   }}
                 >
-                  <span className="fs-3">12 ශ්‍රේණිය</span>
+                  <div className="d-flex justify-content-start" style={{}}>
+                    <span className="fs-4" style={{ color: "black" }}>
+                      12 ශ්‍රේණිය
+                    </span>
+                  </div>
+
+                  <div
+                    className=""
+                    style={{
+                      marginLeft: "-13px",
+                      marginTop: "7px",
+                      width: "392px",
+                      padding: "6px",
+                      borderRadius: "0px 0px 10px 10px",
+                      backgroundColor: "#e6eeff",
+                    }}
+                  >
+                    <div
+                      className="d-flex "
+                      style={{
+                        marginTop: "0px",
+                        width: "490px",
+                        marginLeft: "5px",
+                      }}
+                    >
+                      <span className="text-danger">නව විෂය නිර්දේශය </span>
+
+                      <div className="" style={{ marginLeft: "200px" }}>
+                        <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </Link>
 
             <Link to="/grade13">
-              <div className="">
-                <div className="" style={{ paddingLeft: "20px" }}>
+            <div className="" style={{ paddingRight: "20px" }}>
+                <div
+                  className="card shadow-sm p-3 mb-5 bg-white rounded"
+                  style={{
+                    borderRadius: "20px 20px 0 0",
+                    height: "100px",
+                    width: "400px",
+                  }}
+                >
+                  <div className="d-flex justify-content-start" style={{}}>
+                    <span className="fs-4" style={{ color: "black" }}>
+                      13 ශ්‍රේණිය
+                    </span>
+                  </div>
+
                   <div
-                    className="card shadow-sm p-3 mb-5 bg-white rounded"
+                    className=""
                     style={{
-                      borderRadius: "20px 20px 0 0",
-                      height: "100px",
-                      width: "400px",
-                      marginLeft: "00px",
+                      marginLeft: "-13px",
+                      marginTop: "7px",
+                      width: "392px",
+                      padding: "6px",
+                      borderRadius: "0px 0px 10px 10px",
+                      backgroundColor: "#e6eeff",
                     }}
                   >
-                    <span className="fs-3">13 ශ්‍රේණිය</span>
+                    <div
+                      className="d-flex "
+                      style={{
+                        marginTop: "0px",
+                        width: "490px",
+                        marginLeft: "5px",
+                      }}
+                    >
+                      <span className="text-danger">නව විෂය නිර්දේශය </span>
+
+                      <div className="" style={{ marginLeft: "200px" }}>
+                        <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -54,7 +113,7 @@ export default function LandingPage() {
           </div>
         </div>
 
-        <div className=" p-4 " style={{ width: "400px", paddingLeft: "30px" }}>
+        <div className=" p-4 " style={{ width: "400px", paddingLeft: "30px" , marginTop:"-20px" }}>
           <h3 className="d-flex justify-content-start">
             අ.පො.ස ( සාමාන්‍ය පෙළ)
           </h3>
@@ -64,7 +123,7 @@ export default function LandingPage() {
             style={{ width: "1000px", marginTop: "-20px" }}
           >
             <Link to="/grade10">
-              <div className="">
+            <div className="" style={{ paddingRight: "20px" }}>
                 <div
                   className="card shadow-sm p-3 mb-5 bg-white rounded"
                   style={{
@@ -73,24 +132,83 @@ export default function LandingPage() {
                     width: "400px",
                   }}
                 >
-                  <span className="fs-3">10 ශ්‍රේණිය</span>
+                  <div className="d-flex justify-content-start" style={{}}>
+                    <span className="fs-4" style={{ color: "black" }}>
+                      10 ශ්‍රේණිය
+                    </span>
+                  </div>
+
+                  <div
+                    className=""
+                    style={{
+                      marginLeft: "-13px",
+                      marginTop: "7px",
+                      width: "392px",
+                      padding: "6px",
+                      borderRadius: "0px 0px 10px 10px",
+                      backgroundColor: "#e6eeff",
+                    }}
+                  >
+                    <div
+                      className="d-flex "
+                      style={{
+                        marginTop: "0px",
+                        width: "490px",
+                        marginLeft: "5px",
+                      }}
+                    >
+                      <span className="text-danger">නව විෂය නිර්දේශය </span>
+
+                      <div className="" style={{ marginLeft: "200px" }}>
+                        <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </Link>
 
             <Link to="/grade11">
-              <div className="">
-                <div className="" style={{ paddingLeft: "20px" }}>
+            <div className="" style={{ paddingRight: "20px" }}>
+                <div
+                  className="card shadow-sm p-3 mb-5 bg-white rounded"
+                  style={{
+                    borderRadius: "20px 20px 0 0",
+                    height: "100px",
+                    width: "400px",
+                  }}
+                >
+                  <div className="d-flex justify-content-start" style={{}}>
+                    <span className="fs-4" style={{ color: "black" }}>
+                      11 ශ්‍රේණිය
+                    </span>
+                  </div>
+
                   <div
-                    className="card shadow-sm p-3 mb-5 bg-white rounded"
+                    className=""
                     style={{
-                      borderRadius: "20px 20px 0 0",
-                      height: "100px",
-                      width: "400px",
-                      marginLeft: "00px",
+                      marginLeft: "-13px",
+                      marginTop: "7px",
+                      width: "392px",
+                      padding: "6px",
+                      borderRadius: "0px 0px 10px 10px",
+                      backgroundColor: "#e6eeff",
                     }}
                   >
-                    <span className="fs-3">11 ශ්‍රේණිය</span>
+                    <div
+                      className="d-flex "
+                      style={{
+                        marginTop: "0px",
+                        width: "490px",
+                        marginLeft: "5px",
+                      }}
+                    >
+                      <span className="text-danger">නව විෂය නිර්දේශය </span>
+
+                      <div className="" style={{ marginLeft: "200px" }}>
+                        <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -98,171 +216,433 @@ export default function LandingPage() {
           </div>
         </div>
 
-        <div className=" p-4" style={{ width: "400px", paddingLeft: "30px" }}>
+        <div className=" p-4" style={{ width: "400px", paddingLeft: "30px", marginTop:"-40px" }}>
           <h3 className="d-flex justify-content-start">අනෙකුත් ශ්‍රේණි</h3>
 
           <div
             className="d-flex flex-column "
             style={{ width: "1000px", marginTop: "-20px" }}
           >
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between" >
               <Link to="/grade9">
-                <div className="">
+              <div className="" style={{ paddingRight: "20px" }}>
+                <div
+                  className="card shadow-sm p-3 mb-5 bg-white rounded"
+                  style={{
+                    borderRadius: "20px 20px 0 0",
+                    height: "100px",
+                    width: "400px",
+                  }}
+                >
+                  <div className="d-flex justify-content-start" style={{}}>
+                    <span className="fs-4" style={{ color: "black" }}>
+                      9 ශ්‍රේණිය
+                    </span>
+                  </div>
+
                   <div
-                    className="card shadow-sm p-3 mb-5 bg-white rounded"
+                    className=""
                     style={{
-                      borderRadius: "20px 20px 0 0",
-                      height: "100px",
-                      width: "400px",
+                      marginLeft: "-13px",
+                      marginTop: "7px",
+                      width: "392px",
+                      padding: "6px",
+                      borderRadius: "0px 0px 10px 10px",
+                      backgroundColor: "#e6eeff",
                     }}
                   >
-                    <span className="fs-3">9 ශ්‍රේණිය</span>
+                    <div
+                      className="d-flex "
+                      style={{
+                        marginTop: "0px",
+                        width: "490px",
+                        marginLeft: "5px",
+                      }}
+                    >
+                      <span className="text-danger">නව විෂය නිර්දේශය </span>
+
+                      <div className="" style={{ marginLeft: "200px" }}>
+                        <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
+                      </div>
+                    </div>
                   </div>
                 </div>
+              </div>
               </Link>
 
               <Link to="/grade8">
-                <div className="">
-                  <div className="" style={{ paddingLeft: "20px" }}>
+              <div className="" style={{ paddingRight: "20px" }}>
+                <div
+                  className="card shadow-sm p-3 mb-5 bg-white rounded"
+                  style={{
+                    borderRadius: "20px 20px 0 0",
+                    height: "100px",
+                    width: "400px",
+                  }}
+                >
+                  <div className="d-flex justify-content-start" style={{}}>
+                    <span className="fs-4" style={{ color: "black" }}>
+                      8 ශ්‍රේණිය
+                    </span>
+                  </div>
+
+                  <div
+                    className=""
+                    style={{
+                      marginLeft: "-13px",
+                      marginTop: "7px",
+                      width: "392px",
+                      padding: "6px",
+                      borderRadius: "0px 0px 10px 10px",
+                      backgroundColor: "#e6eeff",
+                    }}
+                  >
                     <div
-                      className="card shadow-sm p-3 mb-5 bg-white rounded"
+                      className="d-flex "
                       style={{
-                        borderRadius: "20px 20px 0 0",
-                        height: "100px",
-                        width: "400px",
-                        marginLeft: "00px",
+                        marginTop: "0px",
+                        width: "490px",
+                        marginLeft: "5px",
                       }}
                     >
-                      <span className="fs-3">8 ශ්‍රේණිය</span>
+                      <span className="text-danger">නව විෂය නිර්දේශය </span>
+
+                      <div className="" style={{ marginLeft: "200px" }}>
+                        <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
+                      </div>
                     </div>
                   </div>
                 </div>
+              </div>
               </Link>
 
               <Link to="/grade7">
-                <div className="">
-                  <div className="" style={{ paddingLeft: "20px" }}>
+              <div className="" style={{ paddingRight: "20px" }}>
+                <div
+                  className="card shadow-sm p-3 mb-5 bg-white rounded"
+                  style={{
+                    borderRadius: "20px 20px 0 0",
+                    height: "100px",
+                    width: "400px",
+                  }}
+                >
+                  <div className="d-flex justify-content-start" style={{}}>
+                    <span className="fs-4" style={{ color: "black" }}>
+                      7 ශ්‍රේණිය
+                    </span>
+                  </div>
+
+                  <div
+                    className=""
+                    style={{
+                      marginLeft: "-13px",
+                      marginTop: "7px",
+                      width: "392px",
+                      padding: "6px",
+                      borderRadius: "0px 0px 10px 10px",
+                      backgroundColor: "#e6eeff",
+                    }}
+                  >
                     <div
-                      className="card shadow-sm p-3 mb-5 bg-white rounded"
+                      className="d-flex "
                       style={{
-                        borderRadius: "20px 20px 0 0",
-                        height: "100px",
-                        width: "400px",
-                        marginLeft: "00px",
+                        marginTop: "0px",
+                        width: "490px",
+                        marginLeft: "5px",
                       }}
                     >
-                      <span className="fs-3">7 ශ්‍රේණිය</span>
+                      <span className="text-danger">නව විෂය නිර්දේශය </span>
+
+                      <div className="" style={{ marginLeft: "200px" }}>
+                        <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
+                      </div>
                     </div>
                   </div>
                 </div>
+              </div>
               </Link>
             </div>
 
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between" style={{marginTop:"-30px"}}>
               <Link to="/grade6">
-                <div className="">
+              <div className="" style={{ paddingRight: "20px" }}>
+                <div
+                  className="card shadow-sm p-3 mb-5 bg-white rounded"
+                  style={{
+                    borderRadius: "20px 20px 0 0",
+                    height: "100px",
+                    width: "400px",
+                  }}
+                >
+                  <div className="d-flex justify-content-start" style={{}}>
+                    <span className="fs-4" style={{ color: "black" }}>
+                      6 ශ්‍රේණිය
+                    </span>
+                  </div>
+
                   <div
-                    className="card shadow-sm p-3 mb-5 bg-white rounded"
+                    className=""
                     style={{
-                      borderRadius: "20px 20px 0 0",
-                      height: "100px",
-                      width: "400px",
+                      marginLeft: "-13px",
+                      marginTop: "7px",
+                      width: "392px",
+                      padding: "6px",
+                      borderRadius: "0px 0px 10px 10px",
+                      backgroundColor: "#e6eeff",
                     }}
                   >
-                    <span className="fs-3">6 ශ්‍රේණිය</span>
+                    <div
+                      className="d-flex "
+                      style={{
+                        marginTop: "0px",
+                        width: "490px",
+                        marginLeft: "5px",
+                      }}
+                    >
+                      <span className="text-danger">නව විෂය නිර්දේශය </span>
+
+                      <div className="" style={{ marginLeft: "200px" }}>
+                        <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
+                      </div>
+                    </div>
                   </div>
                 </div>
+              </div>
               </Link>
 
               <Link to="/grade5">
-                <div className="">
-                  <div className="" style={{ paddingLeft: "20px" }}>
+              <div className="" style={{ paddingRight: "20px" }}>
+                <div
+                  className="card shadow-sm p-3 mb-5 bg-white rounded"
+                  style={{
+                    borderRadius: "20px 20px 0 0",
+                    height: "100px",
+                    width: "400px",
+                  }}
+                >
+                  <div className="d-flex justify-content-start" style={{}}>
+                    <span className="fs-4" style={{ color: "black" }}>
+                      5 ශ්‍රේණිය
+                    </span>
+                  </div>
+
+                  <div
+                    className=""
+                    style={{
+                      marginLeft: "-13px",
+                      marginTop: "7px",
+                      width: "392px",
+                      padding: "6px",
+                      borderRadius: "0px 0px 10px 10px",
+                      backgroundColor: "#e6eeff",
+                    }}
+                  >
                     <div
-                      className="card shadow-sm p-3 mb-5 bg-white rounded"
+                      className="d-flex "
                       style={{
-                        borderRadius: "20px 20px 0 0",
-                        height: "100px",
-                        width: "400px",
-                        marginLeft: "00px",
+                        marginTop: "0px",
+                        width: "490px",
+                        marginLeft: "5px",
                       }}
                     >
-                      <span className="fs-3">5 ශ්‍රේණිය</span>
+                      <span className="text-danger">නව විෂය නිර්දේශය </span>
+
+                      <div className="" style={{ marginLeft: "200px" }}>
+                        <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
+                      </div>
                     </div>
                   </div>
                 </div>
+              </div>
               </Link>
 
               <Link to="/grade4">
-                <div className="">
-                  <div className="" style={{ paddingLeft: "20px" }}>
+              <div className="" style={{ paddingRight: "20px" }}>
+                <div
+                  className="card shadow-sm p-3 mb-5 bg-white rounded"
+                  style={{
+                    borderRadius: "20px 20px 0 0",
+                    height: "100px",
+                    width: "400px",
+                  }}
+                >
+                  <div className="d-flex justify-content-start" style={{}}>
+                    <span className="fs-4" style={{ color: "black" }}>
+                      4 ශ්‍රේණිය
+                    </span>
+                  </div>
+
+                  <div
+                    className=""
+                    style={{
+                      marginLeft: "-13px",
+                      marginTop: "7px",
+                      width: "392px",
+                      padding: "6px",
+                      borderRadius: "0px 0px 10px 10px",
+                      backgroundColor: "#e6eeff",
+                    }}
+                  >
                     <div
-                      className="card shadow-sm p-3 mb-5 bg-white rounded"
+                      className="d-flex "
                       style={{
-                        borderRadius: "20px 20px 0 0",
-                        height: "100px",
-                        width: "400px",
-                        marginLeft: "00px",
+                        marginTop: "0px",
+                        width: "490px",
+                        marginLeft: "5px",
                       }}
                     >
-                      <span className="fs-3">4 ශ්‍රේණිය</span>
+                      <span className="text-danger">නව විෂය නිර්දේශය </span>
+
+                      <div className="" style={{ marginLeft: "200px" }}>
+                        <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
+                      </div>
                     </div>
                   </div>
                 </div>
+              </div>
               </Link>
             </div>
 
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between" style={{marginTop:"-30px"}}>
               <Link to="/grade3">
-                <div className="">
+              <div className="" style={{ paddingRight: "20px" }}>
+                <div
+                  className="card shadow-sm p-3 mb-5 bg-white rounded"
+                  style={{
+                    borderRadius: "20px 20px 0 0",
+                    height: "100px",
+                    width: "400px",
+                  }}
+                >
+                  <div className="d-flex justify-content-start" style={{}}>
+                    <span className="fs-4" style={{ color: "black" }}>
+                      3 ශ්‍රේණිය
+                    </span>
+                  </div>
+
                   <div
-                    className="card shadow-sm p-3 mb-5 bg-white rounded"
+                    className=""
                     style={{
-                      borderRadius: "20px 20px 0 0",
-                      height: "100px",
-                      width: "400px",
+                      marginLeft: "-13px",
+                      marginTop: "7px",
+                      width: "392px",
+                      padding: "6px",
+                      borderRadius: "0px 0px 10px 10px",
+                      backgroundColor: "#e6eeff",
                     }}
                   >
-                    <span className="fs-3">3 ශ්‍රේණිය</span>
+                    <div
+                      className="d-flex "
+                      style={{
+                        marginTop: "0px",
+                        width: "490px",
+                        marginLeft: "5px",
+                      }}
+                    >
+                      <span className="text-danger">නව විෂය නිර්දේශය </span>
+
+                      <div className="" style={{ marginLeft: "200px" }}>
+                        <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
+                      </div>
+                    </div>
                   </div>
                 </div>
+              </div>
               </Link>
 
               <Link to="/grade2">
-                <div className="">
-                  <div className="" style={{ paddingLeft: "20px" }}>
+              <div className="" style={{ paddingRight: "20px" }}>
+                <div
+                  className="card shadow-sm p-3 mb-5 bg-white rounded"
+                  style={{
+                    borderRadius: "20px 20px 0 0",
+                    height: "100px",
+                    width: "400px",
+                  }}
+                >
+                  <div className="d-flex justify-content-start" style={{}}>
+                    <span className="fs-4" style={{ color: "black" }}>
+                      2 ශ්‍රේණිය
+                    </span>
+                  </div>
+
+                  <div
+                    className=""
+                    style={{
+                      marginLeft: "-13px",
+                      marginTop: "7px",
+                      width: "392px",
+                      padding: "6px",
+                      borderRadius: "0px 0px 10px 10px",
+                      backgroundColor: "#e6eeff",
+                    }}
+                  >
                     <div
-                      className="card shadow-sm p-3 mb-5 bg-white rounded"
+                      className="d-flex "
                       style={{
-                        borderRadius: "20px 20px 0 0",
-                        height: "100px",
-                        width: "400px",
-                        marginLeft: "00px",
+                        marginTop: "0px",
+                        width: "490px",
+                        marginLeft: "5px",
                       }}
                     >
-                      <span className="fs-3">2 ශ්‍රේණිය</span>
+                      <span className="text-danger">නව විෂය නිර්දේශය </span>
+
+                      <div className="" style={{ marginLeft: "200px" }}>
+                        <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
+                      </div>
                     </div>
                   </div>
                 </div>
+              </div>
               </Link>
 
               <Link to="/grade1">
-                <div className="">
-                  <div className="" style={{ paddingLeft: "20px" }}>
+              <div className="" style={{ paddingRight: "20px" }}>
+                <div
+                  className="card shadow-sm p-3 mb-5 bg-white rounded"
+                  style={{
+                    borderRadius: "20px 20px 0 0",
+                    height: "100px",
+                    width: "400px",
+                  }}
+                >
+                  <div className="d-flex justify-content-start" style={{}}>
+                    <span className="fs-4" style={{ color: "black" }}>
+                      1 ශ්‍රේණිය
+                    </span>
+                  </div>
+
+                  <div
+                    className=""
+                    style={{
+                      marginLeft: "-13px",
+                      marginTop: "7px",
+                      width: "392px",
+                      padding: "6px",
+                      borderRadius: "0px 0px 10px 10px",
+                      backgroundColor: "#e6eeff",
+                    }}
+                  >
                     <div
-                      className="card shadow-sm p-3 mb-5 bg-white rounded"
+                      className="d-flex "
                       style={{
-                        borderRadius: "20px 20px 0 0",
-                        height: "100px",
-                        width: "400px",
-                        marginLeft: "00px",
+                        marginTop: "0px",
+                        width: "490px",
+                        marginLeft: "5px",
                       }}
                     >
-                      <span className="fs-3">1 ශ්‍රේණිය</span>
+                      <span className="text-danger">නව විෂය නිර්දේශය </span>
+
+                      <div className="" style={{ marginLeft: "200px" }}>
+                        <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
+                      </div>
                     </div>
                   </div>
                 </div>
+              </div>
               </Link>
             </div>
+
           </div>
         </div>
       </div>
