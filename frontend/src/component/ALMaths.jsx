@@ -100,6 +100,7 @@ export default function ALMaths() {
                             </div>
                           </Link>
 
+                         <Link to="/biology">
                           <div
                             className="card bg-light p-2"
                             style={{
@@ -158,6 +159,7 @@ export default function ALMaths() {
                               </div>
                             </div>
                           </div>
+                          </Link>
 
                           <div
                             className="card bg-light p-2"

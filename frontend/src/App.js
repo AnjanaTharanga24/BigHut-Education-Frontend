@@ -18,6 +18,7 @@ import Grade1 from './pages/Grade1';
 import ALMaths from './component/ALMaths';
 import Physics from './pages/Physics';
 import Contents from './component/Contents';
+import Biology from './pages/Biology';
 
 function App() {
   return (
@@ -41,8 +42,10 @@ function App() {
           <Route exact path='/grade2' element={<Grade2/>}/>
           <Route exact path='/grade1' element={<Grade1/>}/>
           <Route exact path='/almaths' element={<ALMaths/>}/>
-          <Route exact path='/physics' element={<Physics/>}/>
           <Route exact path='/contents' element={<Contents/>}/>
+          <Route exact path='/physics' element={<Physics/>}/>
+          <Route exact path='/biology' element={<Biology/>}/>
+
 
 
         </Routes>
