@@ -15,9 +15,9 @@ export default function Physics() {
                 <div
                   className="card-body card shadow-lg mb-5 rounded"
                   style={{
-                    height: "1000px",
+                    height: "auto",
                     width: "1300px",
-                    marginLeft: "00px",
+                   
                   }}
                 >
                   <div className="d-flex justify-content-start" style={{}}>
@@ -35,70 +35,72 @@ export default function Physics() {
                       style={{ width: "1000px", marginTop: "-20px" }}
                     >
                       <div className="d-flex justify-content-between">
-
                         <Link to="/contents">
-                        <div className="" style={{ paddingRight: "20px" }}>
-                          <div
-                            className="card shadow-sm p-3 mb-5 bg-white rounded"
-                            style={{
-                              borderRadius: "20px 20px 0 0",
-                              height: "140px",
-                              width: "400px",
-                            }}
-                          >
+                          <div className="" style={{ paddingRight: "20px" }}>
                             <div
-                              className="d-flex justify-content-start"
-                              style={{}}
-                            >
-                              <span className="fs-5">විෂය ඒකකය</span>
-                            </div>
-                            <div
-                              className="d-flex justify-content-start"
-                              style={{}}
-                            >
-                              <span className="fs-4" style={{ color: "black" }}>
-                                01 මිනුම්
-                              </span>
-                            </div>
-
-                            <div
-                              className=""
+                              className="card shadow-sm p-3 mb-5 bg-white rounded"
                               style={{
-                                marginLeft: "-13px",
-                                marginTop: "18px",
-                                width: "392px",
-                                padding: "6px",
-                                borderRadius: "0px 0px 10px 10px",
-                                backgroundColor: "#e6eeff",
+                                borderRadius: "20px 20px 0 0",
+                                height: "140px",
+                                width: "600px",
                               }}
                             >
                               <div
-                                className="d-flex "
+                                className="d-flex justify-content-start"
+                                style={{}}
+                              >
+                                <span className="fs-5">විෂය ඒකකය</span>
+                              </div>
+                              <div
+                                className="d-flex justify-content-start"
+                                style={{}}
+                              >
+                                <span
+                                  className="fs-4"
+                                  style={{ color: "black" }}
+                                >
+                                  01 මිනුම්
+                                </span>
+                              </div>
+
+                              <div
+                                className=""
                                 style={{
-                                  marginTop: "0px",
-                                  width: "490px",
-                                  marginLeft: "5px",
+                                  marginLeft: "-13px",
+                                  marginTop: "18px",
+                                  width: "595px",
+                                  padding: "6px",
+                                  borderRadius: "0px 0px 10px 10px",
+                                  backgroundColor: "#e6eeff",
                                 }}
                               >
-                                <span className="text-danger">
-                                  බහුවරණ ප්‍රශ්න ගණන
-                                </span>
-                                <span
-                                  className="text-success"
-                                  style={{ paddingLeft: "20px" }}
-                                >
-                                  1097
-                                </span>
                                 <div
-                                  className=""
-                                  style={{ marginLeft: "130px" }}
+                                  className="d-flex"
+                                  style={{
+                                    marginTop: "0px",
+                                  width: "580px",
+                                  marginLeft: "5px",
+                                  }}
                                 >
-                                  <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
+                                  <span className="text-danger ">
+                                    බහුවරණ ප්‍රශ්න ගණන
+                                  </span>
+                                  <span
+                                    className="text-success"
+                                    style={{ paddingLeft: "20px" }}
+                                  >
+                                    1097
+                                  </span>
+                                  <div
+                                    className=""
+                                    style={{ marginLeft: "330px" }}
+                                  >
+                                    <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
+                                  </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
                         </Link>
 
                         <div className="" style={{ paddingRight: "20px" }}>
@@ -107,7 +109,7 @@ export default function Physics() {
                             style={{
                               borderRadius: "20px 20px 0 0",
                               height: "140px",
-                              width: "400px",
+                              width: "600px",
                             }}
                           >
                             <div
@@ -130,7 +132,7 @@ export default function Physics() {
                               style={{
                                 marginLeft: "-13px",
                                 marginTop: "18px",
-                                width: "392px",
+                                width: "595px",
                                 padding: "6px",
                                 borderRadius: "0px 0px 10px 10px",
                                 backgroundColor: "#e6eeff",
@@ -140,7 +142,7 @@ export default function Physics() {
                                 className="d-flex "
                                 style={{
                                   marginTop: "0px",
-                                  width: "490px",
+                                  width: "580px",
                                   marginLeft: "5px",
                                 }}
                               >
@@ -155,7 +157,7 @@ export default function Physics() {
                                 </span>
                                 <div
                                   className=""
-                                  style={{ marginLeft: "130px" }}
+                                  style={{ marginLeft: "345px" }}
                                 >
                                   <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
                                 </div>
@@ -163,14 +165,16 @@ export default function Physics() {
                             </div>
                           </div>
                         </div>
+                      </div>
 
-                        <div className="">
+                      <div className="d-flex justify-content-between">
+                        <div className="" style={{ paddingRight: "20px" }}>
                           <div
                             className="card shadow-sm p-3 mb-5 bg-white rounded"
                             style={{
                               borderRadius: "20px 20px 0 0",
                               height: "140px",
-                              width: "400px",
+                              width: "600px",
                             }}
                           >
                             <div
@@ -193,32 +197,32 @@ export default function Physics() {
                               style={{
                                 marginLeft: "-13px",
                                 marginTop: "18px",
-                                width: "392px",
+                                width: "595px",
                                 padding: "6px",
                                 borderRadius: "0px 0px 10px 10px",
                                 backgroundColor: "#e6eeff",
                               }}
                             >
                               <div
-                                className="d-flex "
+                                className="d-flex"
                                 style={{
                                   marginTop: "0px",
-                                  width: "490px",
+                                  width: "580px",
                                   marginLeft: "5px",
                                 }}
                               >
-                                <span className="text-danger">
+                                <span className="text-danger ">
                                   බහුවරණ ප්‍රශ්න ගණන
                                 </span>
                                 <span
                                   className="text-success"
                                   style={{ paddingLeft: "20px" }}
                                 >
-                                  178
+                                  1097
                                 </span>
                                 <div
                                   className=""
-                                  style={{ marginLeft: "130px" }}
+                                  style={{ marginLeft: "330px" }}
                                 >
                                   <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
                                 </div>
@@ -226,16 +230,14 @@ export default function Physics() {
                             </div>
                           </div>
                         </div>
-                      </div>
 
-                      <div className="d-flex justify-content-between">
                         <div className="" style={{ paddingRight: "20px" }}>
                           <div
                             className="card shadow-sm p-3 mb-5 bg-white rounded"
                             style={{
                               borderRadius: "20px 20px 0 0",
                               height: "140px",
-                              width: "400px",
+                              width: "600px",
                             }}
                           >
                             <div
@@ -258,7 +260,7 @@ export default function Physics() {
                               style={{
                                 marginLeft: "-13px",
                                 marginTop: "18px",
-                                width: "392px",
+                                width: "595px",
                                 padding: "6px",
                                 borderRadius: "0px 0px 10px 10px",
                                 backgroundColor: "#e6eeff",
@@ -268,7 +270,7 @@ export default function Physics() {
                                 className="d-flex "
                                 style={{
                                   marginTop: "0px",
-                                  width: "490px",
+                                  width: "580px",
                                   marginLeft: "5px",
                                 }}
                               >
@@ -279,11 +281,11 @@ export default function Physics() {
                                   className="text-success"
                                   style={{ paddingLeft: "20px" }}
                                 >
-                                  92
+                                  231
                                 </span>
                                 <div
                                   className=""
-                                  style={{ marginLeft: "130px" }}
+                                  style={{ marginLeft: "345px" }}
                                 >
                                   <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
                                 </div>
@@ -291,14 +293,16 @@ export default function Physics() {
                             </div>
                           </div>
                         </div>
+                      </div>
 
+                      <div className="d-flex justify-content-between">
                         <div className="" style={{ paddingRight: "20px" }}>
                           <div
                             className="card shadow-sm p-3 mb-5 bg-white rounded"
                             style={{
                               borderRadius: "20px 20px 0 0",
                               height: "140px",
-                              width: "400px",
+                              width: "600px",
                             }}
                           >
                             <div
@@ -321,32 +325,32 @@ export default function Physics() {
                               style={{
                                 marginLeft: "-13px",
                                 marginTop: "18px",
-                                width: "392px",
+                                width: "595px",
                                 padding: "6px",
                                 borderRadius: "0px 0px 10px 10px",
                                 backgroundColor: "#e6eeff",
                               }}
                             >
                               <div
-                                className="d-flex "
+                                className="d-flex"
                                 style={{
                                   marginTop: "0px",
-                                  width: "490px",
+                                  width: "580px",
                                   marginLeft: "5px",
                                 }}
                               >
-                                <span className="text-danger">
+                                <span className="text-danger ">
                                   බහුවරණ ප්‍රශ්න ගණන
                                 </span>
                                 <span
                                   className="text-success"
                                   style={{ paddingLeft: "20px" }}
                                 >
-                                  107
+                                  1097
                                 </span>
                                 <div
                                   className=""
-                                  style={{ marginLeft: "130px" }}
+                                  style={{ marginLeft: "330px" }}
                                 >
                                   <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
                                 </div>
@@ -355,13 +359,13 @@ export default function Physics() {
                           </div>
                         </div>
 
-                        <div className="">
+                        <div className="" style={{ paddingRight: "20px" }}>
                           <div
                             className="card shadow-sm p-3 mb-5 bg-white rounded"
                             style={{
                               borderRadius: "20px 20px 0 0",
                               height: "140px",
-                              width: "400px",
+                              width: "600px",
                             }}
                           >
                             <div
@@ -384,7 +388,7 @@ export default function Physics() {
                               style={{
                                 marginLeft: "-13px",
                                 marginTop: "18px",
-                                width: "392px",
+                                width: "595px",
                                 padding: "6px",
                                 borderRadius: "0px 0px 10px 10px",
                                 backgroundColor: "#e6eeff",
@@ -394,7 +398,7 @@ export default function Physics() {
                                 className="d-flex "
                                 style={{
                                   marginTop: "0px",
-                                  width: "490px",
+                                  width: "580px",
                                   marginLeft: "5px",
                                 }}
                               >
@@ -405,11 +409,11 @@ export default function Physics() {
                                   className="text-success"
                                   style={{ paddingLeft: "20px" }}
                                 >
-                                  65
+                                  231
                                 </span>
                                 <div
                                   className=""
-                                  style={{ marginLeft: "130px" }}
+                                  style={{ marginLeft: "345px" }}
                                 >
                                   <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
                                 </div>
@@ -426,7 +430,7 @@ export default function Physics() {
                             style={{
                               borderRadius: "20px 20px 0 0",
                               height: "140px",
-                              width: "400px",
+                              width: "600px",
                             }}
                           >
                             <div
@@ -449,32 +453,32 @@ export default function Physics() {
                               style={{
                                 marginLeft: "-13px",
                                 marginTop: "18px",
-                                width: "392px",
+                                width: "595px",
                                 padding: "6px",
                                 borderRadius: "0px 0px 10px 10px",
                                 backgroundColor: "#e6eeff",
                               }}
                             >
                               <div
-                                className="d-flex "
+                                className="d-flex"
                                 style={{
                                   marginTop: "0px",
-                                  width: "490px",
+                                  width: "580px",
                                   marginLeft: "5px",
                                 }}
                               >
-                                <span className="text-danger">
+                                <span className="text-danger ">
                                   බහුවරණ ප්‍රශ්න ගණන
                                 </span>
                                 <span
                                   className="text-success"
                                   style={{ paddingLeft: "20px" }}
                                 >
-                                  72
+                                  1097
                                 </span>
                                 <div
                                   className=""
-                                  style={{ marginLeft: "130px" }}
+                                  style={{ marginLeft: "330px" }}
                                 >
                                   <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
                                 </div>
@@ -489,7 +493,7 @@ export default function Physics() {
                             style={{
                               borderRadius: "20px 20px 0 0",
                               height: "140px",
-                              width: "400px",
+                              width: "600px",
                             }}
                           >
                             <div
@@ -512,7 +516,7 @@ export default function Physics() {
                               style={{
                                 marginLeft: "-13px",
                                 marginTop: "18px",
-                                width: "392px",
+                                width: "595px",
                                 padding: "6px",
                                 borderRadius: "0px 0px 10px 10px",
                                 backgroundColor: "#e6eeff",
@@ -522,7 +526,7 @@ export default function Physics() {
                                 className="d-flex "
                                 style={{
                                   marginTop: "0px",
-                                  width: "490px",
+                                  width: "580px",
                                   marginLeft: "5px",
                                 }}
                               >
@@ -533,11 +537,11 @@ export default function Physics() {
                                   className="text-success"
                                   style={{ paddingLeft: "20px" }}
                                 >
-                                  153
+                                  231
                                 </span>
                                 <div
                                   className=""
-                                  style={{ marginLeft: "130px" }}
+                                  style={{ marginLeft: "345px" }}
                                 >
                                   <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
                                 </div>
@@ -545,14 +549,16 @@ export default function Physics() {
                             </div>
                           </div>
                         </div>
+                      </div>
 
-                        <div className="">
+                      <div className="d-flex justify-content-between">
+                        <div className="" style={{ paddingRight: "20px" }}>
                           <div
                             className="card shadow-sm p-3 mb-5 bg-white rounded"
                             style={{
                               borderRadius: "20px 20px 0 0",
                               height: "140px",
-                              width: "400px",
+                              width: "600px",
                             }}
                           >
                             <div
@@ -575,32 +581,32 @@ export default function Physics() {
                               style={{
                                 marginLeft: "-13px",
                                 marginTop: "18px",
-                                width: "392px",
+                                width: "595px",
                                 padding: "6px",
                                 borderRadius: "0px 0px 10px 10px",
                                 backgroundColor: "#e6eeff",
                               }}
                             >
                               <div
-                                className="d-flex "
+                                className="d-flex"
                                 style={{
                                   marginTop: "0px",
-                                  width: "490px",
+                                  width: "580px",
                                   marginLeft: "5px",
                                 }}
                               >
-                                <span className="text-danger">
+                                <span className="text-danger ">
                                   බහුවරණ ප්‍රශ්න ගණන
                                 </span>
                                 <span
                                   className="text-success"
                                   style={{ paddingLeft: "20px" }}
                                 >
-                                  12
+                                  1097
                                 </span>
                                 <div
                                   className=""
-                                  style={{ marginLeft: "130px" }}
+                                  style={{ marginLeft: "330px" }}
                                 >
                                   <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
                                 </div>
@@ -608,16 +614,14 @@ export default function Physics() {
                             </div>
                           </div>
                         </div>
-                      </div>
 
-                      <div className="d-flex justify-content-between">
                         <div className="" style={{ paddingRight: "20px" }}>
                           <div
                             className="card shadow-sm p-3 mb-5 bg-white rounded"
                             style={{
                               borderRadius: "20px 20px 0 0",
                               height: "140px",
-                              width: "400px",
+                              width: "600px",
                             }}
                           >
                             <div
@@ -640,7 +644,7 @@ export default function Physics() {
                               style={{
                                 marginLeft: "-13px",
                                 marginTop: "18px",
-                                width: "392px",
+                                width: "595px",
                                 padding: "6px",
                                 borderRadius: "0px 0px 10px 10px",
                                 backgroundColor: "#e6eeff",
@@ -650,7 +654,7 @@ export default function Physics() {
                                 className="d-flex "
                                 style={{
                                   marginTop: "0px",
-                                  width: "490px",
+                                  width: "580px",
                                   marginLeft: "5px",
                                 }}
                               >
@@ -661,11 +665,11 @@ export default function Physics() {
                                   className="text-success"
                                   style={{ paddingLeft: "20px" }}
                                 >
-                                  44
+                                  231
                                 </span>
                                 <div
                                   className=""
-                                  style={{ marginLeft: "130px" }}
+                                  style={{ marginLeft: "345px" }}
                                 >
                                   <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
                                 </div>
@@ -673,14 +677,16 @@ export default function Physics() {
                             </div>
                           </div>
                         </div>
+                      </div>
 
-                        <div className="" style={{ paddingRight: "179px" }}>
+                      <div className="d-flex justify-content-between">
+                        <div className="" style={{ paddingRight: "20px" }}>
                           <div
                             className="card shadow-sm p-3 mb-5 bg-white rounded"
                             style={{
                               borderRadius: "20px 20px 0 0",
                               height: "140px",
-                              width: "400px",
+                              width: "600px",
                             }}
                           >
                             <div
@@ -703,32 +709,32 @@ export default function Physics() {
                               style={{
                                 marginLeft: "-13px",
                                 marginTop: "18px",
-                                width: "392px",
+                                width: "595px",
                                 padding: "6px",
                                 borderRadius: "0px 0px 10px 10px",
                                 backgroundColor: "#e6eeff",
                               }}
                             >
                               <div
-                                className="d-flex "
+                                className="d-flex"
                                 style={{
                                   marginTop: "0px",
-                                  width: "490px",
+                                  width: "580px",
                                   marginLeft: "5px",
                                 }}
                               >
-                                <span className="text-danger">
+                                <span className="text-danger ">
                                   බහුවරණ ප්‍රශ්න ගණන
                                 </span>
                                 <span
                                   className="text-success"
                                   style={{ paddingLeft: "20px" }}
                                 >
-                                  47
+                                  1097
                                 </span>
                                 <div
                                   className=""
-                                  style={{ marginLeft: "130px" }}
+                                  style={{ marginLeft: "330px" }}
                                 >
                                   <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
                                 </div>

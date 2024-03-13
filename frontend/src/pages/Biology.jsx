@@ -1,5 +1,6 @@
 import React from 'react'
 import Sidebar from '../component/Sidebar'
+import { Link } from 'react-router-dom'
 
 export default function Biology() {
   return (
@@ -14,9 +15,9 @@ export default function Biology() {
               <div
                 className="card-body card shadow-lg mb-5 rounded"
                 style={{
-                  height: "1000px",
+                  height: "auto",
                   width: "1300px",
-                  marginLeft: "00px",
+                 
                 }}
               >
                 <div className="d-flex justify-content-start" style={{}}>
@@ -34,6 +35,73 @@ export default function Biology() {
                     style={{ width: "1000px", marginTop: "-20px" }}
                   >
                     <div className="d-flex justify-content-between">
+                      <Link to="/contents">
+                        <div className="" style={{ paddingRight: "20px" }}>
+                          <div
+                            className="card shadow-sm p-3 mb-5 bg-white rounded"
+                            style={{
+                              borderRadius: "20px 20px 0 0",
+                              height: "140px",
+                              width: "600px",
+                            }}
+                          >
+                            <div
+                              className="d-flex justify-content-start"
+                              style={{}}
+                            >
+                              <span className="fs-5">විෂය ඒකකය</span>
+                            </div>
+                            <div
+                              className="d-flex justify-content-start"
+                              style={{}}
+                            >
+                              <span
+                                className="fs-4"
+                                style={{ color: "black" }}
+                              >
+                                01 මිනුම්
+                              </span>
+                            </div>
+
+                            <div
+                              className=""
+                              style={{
+                                marginLeft: "-13px",
+                                marginTop: "18px",
+                                width: "595px",
+                                padding: "6px",
+                                borderRadius: "0px 0px 10px 10px",
+                                backgroundColor: "#e6eeff",
+                              }}
+                            >
+                              <div
+                                className="d-flex"
+                                style={{
+                                  marginTop: "0px",
+                                width: "580px",
+                                marginLeft: "5px",
+                                }}
+                              >
+                                <span className="text-danger ">
+                                  බහුවරණ ප්‍රශ්න ගණන
+                                </span>
+                                <span
+                                  className="text-success"
+                                  style={{ paddingLeft: "20px" }}
+                                >
+                                  1097
+                                </span>
+                                <div
+                                  className=""
+                                  style={{ marginLeft: "330px" }}
+                                >
+                                  <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </Link>
 
                       <div className="" style={{ paddingRight: "20px" }}>
                         <div
@@ -41,7 +109,7 @@ export default function Biology() {
                           style={{
                             borderRadius: "20px 20px 0 0",
                             height: "140px",
-                            width: "400px",
+                            width: "600px",
                           }}
                         >
                           <div
@@ -55,7 +123,7 @@ export default function Biology() {
                             style={{}}
                           >
                             <span className="fs-4" style={{ color: "black" }}>
-                              01 ජීව විද්‍යාව හැදින්වීම
+                              02 යාන්ත්‍ර විද්‍යාව
                             </span>
                           </div>
 
@@ -64,7 +132,7 @@ export default function Biology() {
                             style={{
                               marginLeft: "-13px",
                               marginTop: "18px",
-                              width: "392px",
+                              width: "595px",
                               padding: "6px",
                               borderRadius: "0px 0px 10px 10px",
                               backgroundColor: "#e6eeff",
@@ -74,7 +142,7 @@ export default function Biology() {
                               className="d-flex "
                               style={{
                                 marginTop: "0px",
-                                width: "490px",
+                                width: "580px",
                                 marginLeft: "5px",
                               }}
                             >
@@ -85,138 +153,11 @@ export default function Biology() {
                                 className="text-success"
                                 style={{ paddingLeft: "20px" }}
                               >
-                                3
+                                231
                               </span>
                               <div
                                 className=""
-                                style={{ marginLeft: "130px" }}
-                              >
-                                <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                     
-
-                      <div className="" style={{ paddingRight: "20px" }}>
-                        <div
-                          className="card shadow-sm p-3 mb-5 bg-white rounded"
-                          style={{
-                            borderRadius: "20px 20px 0 0",
-                            height: "140px",
-                            width: "400px",
-                          }}
-                        >
-                          <div
-                            className="d-flex justify-content-start"
-                            style={{}}
-                          >
-                            <span className="fs-5">විෂය ඒකකය</span>
-                          </div>
-                          <div
-                            className="d-flex justify-content-start"
-                            style={{}}
-                          >
-                            <span className="fs-4" style={{ color: "black" }}>
-                              02 ජීවයේ රසායනික සහ සෛලීය පදනම
-                            </span>
-                          </div>
-
-                          <div
-                            className=""
-                            style={{
-                              marginLeft: "-13px",
-                              marginTop: "18px",
-                              width: "392px",
-                              padding: "6px",
-                              borderRadius: "0px 0px 10px 10px",
-                              backgroundColor: "#e6eeff",
-                            }}
-                          >
-                            <div
-                              className="d-flex "
-                              style={{
-                                marginTop: "0px",
-                                width: "490px",
-                                marginLeft: "5px",
-                              }}
-                            >
-                              <span className="text-danger">
-                                බහුවරණ ප්‍රශ්න ගණන
-                              </span>
-                              <span
-                                className="text-success"
-                                style={{ paddingLeft: "20px" }}
-                              >
-                                157
-                              </span>
-                              <div
-                                className=""
-                                style={{ marginLeft: "130px" }}
-                              >
-                                <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="">
-                        <div
-                          className="card shadow-sm p-3 mb-5 bg-white rounded"
-                          style={{
-                            borderRadius: "20px 20px 0 0",
-                            height: "140px",
-                            width: "400px",
-                          }}
-                        >
-                          <div
-                            className="d-flex justify-content-start"
-                            style={{}}
-                          >
-                            <span className="fs-5">විෂය ඒකකය</span>
-                          </div>
-                          <div
-                            className="d-flex justify-content-start"
-                            style={{}}
-                          >
-                            <span className="fs-4" style={{ color: "black" }}>
-                              03 පරිණාමය හා ජීවින්ගේ විවිධත්වය
-                            </span>
-                          </div>
-
-                          <div
-                            className=""
-                            style={{
-                              marginLeft: "-13px",
-                              marginTop: "18px",
-                              width: "392px",
-                              padding: "6px",
-                              borderRadius: "0px 0px 10px 10px",
-                              backgroundColor: "#e6eeff",
-                            }}
-                          >
-                            <div
-                              className="d-flex "
-                              style={{
-                                marginTop: "0px",
-                                width: "490px",
-                                marginLeft: "5px",
-                              }}
-                            >
-                              <span className="text-danger">
-                                බහුවරණ ප්‍රශ්න ගණන
-                              </span>
-                              <span
-                                className="text-success"
-                                style={{ paddingLeft: "20px" }}
-                              >
-                                71
-                              </span>
-                              <div
-                                className=""
-                                style={{ marginLeft: "130px" }}
+                                style={{ marginLeft: "345px" }}
                               >
                                 <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
                               </div>
@@ -233,7 +174,7 @@ export default function Biology() {
                           style={{
                             borderRadius: "20px 20px 0 0",
                             height: "140px",
-                            width: "400px",
+                            width: "600px",
                           }}
                         >
                           <div
@@ -247,7 +188,7 @@ export default function Biology() {
                             style={{}}
                           >
                             <span className="fs-4" style={{ color: "black" }}>
-                              04 ශාක ආකාරයක හා ක්‍රියාකාරීත්වය
+                              03 දෝලන හා තරංග
                             </span>
                           </div>
 
@@ -256,32 +197,32 @@ export default function Biology() {
                             style={{
                               marginLeft: "-13px",
                               marginTop: "18px",
-                              width: "392px",
+                              width: "595px",
                               padding: "6px",
                               borderRadius: "0px 0px 10px 10px",
                               backgroundColor: "#e6eeff",
                             }}
                           >
                             <div
-                              className="d-flex "
+                              className="d-flex"
                               style={{
                                 marginTop: "0px",
-                                width: "490px",
+                                width: "580px",
                                 marginLeft: "5px",
                               }}
                             >
-                              <span className="text-danger">
+                              <span className="text-danger ">
                                 බහුවරණ ප්‍රශ්න ගණන
                               </span>
                               <span
                                 className="text-success"
                                 style={{ paddingLeft: "20px" }}
                               >
-                                128
+                                1097
                               </span>
                               <div
                                 className=""
-                                style={{ marginLeft: "130px" }}
+                                style={{ marginLeft: "330px" }}
                               >
                                 <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
                               </div>
@@ -296,7 +237,7 @@ export default function Biology() {
                           style={{
                             borderRadius: "20px 20px 0 0",
                             height: "140px",
-                            width: "400px",
+                            width: "600px",
                           }}
                         >
                           <div
@@ -310,7 +251,7 @@ export default function Biology() {
                             style={{}}
                           >
                             <span className="fs-4" style={{ color: "black" }}>
-                              05 සත්ත්ව ආකාරයක හා ක්‍රියාකාරීත්වය
+                              04 තාප භෞතිකය
                             </span>
                           </div>
 
@@ -319,7 +260,7 @@ export default function Biology() {
                             style={{
                               marginLeft: "-13px",
                               marginTop: "18px",
-                              width: "392px",
+                              width: "595px",
                               padding: "6px",
                               borderRadius: "0px 0px 10px 10px",
                               backgroundColor: "#e6eeff",
@@ -329,7 +270,7 @@ export default function Biology() {
                               className="d-flex "
                               style={{
                                 marginTop: "0px",
-                                width: "490px",
+                                width: "580px",
                                 marginLeft: "5px",
                               }}
                             >
@@ -340,74 +281,11 @@ export default function Biology() {
                                 className="text-success"
                                 style={{ paddingLeft: "20px" }}
                               >
-                                166
+                                231
                               </span>
                               <div
                                 className=""
-                                style={{ marginLeft: "130px" }}
-                              >
-                                <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="">
-                        <div
-                          className="card shadow-sm p-3 mb-5 bg-white rounded"
-                          style={{
-                            borderRadius: "20px 20px 0 0",
-                            height: "140px",
-                            width: "400px",
-                          }}
-                        >
-                          <div
-                            className="d-flex justify-content-start"
-                            style={{}}
-                          >
-                            <span className="fs-5">විෂය ඒකකය</span>
-                          </div>
-                          <div
-                            className="d-flex justify-content-start"
-                            style={{}}
-                          >
-                            <span className="fs-4" style={{ color: "black" }}>
-                              06 ප්‍රවේණිය
-                            </span>
-                          </div>
-
-                          <div
-                            className=""
-                            style={{
-                              marginLeft: "-13px",
-                              marginTop: "18px",
-                              width: "392px",
-                              padding: "6px",
-                              borderRadius: "0px 0px 10px 10px",
-                              backgroundColor: "#e6eeff",
-                            }}
-                          >
-                            <div
-                              className="d-flex "
-                              style={{
-                                marginTop: "0px",
-                                width: "490px",
-                                marginLeft: "5px",
-                              }}
-                            >
-                              <span className="text-danger">
-                                බහුවරණ ප්‍රශ්න ගණන
-                              </span>
-                              <span
-                                className="text-success"
-                                style={{ paddingLeft: "20px" }}
-                              >
-                                40
-                              </span>
-                              <div
-                                className=""
-                                style={{ marginLeft: "130px" }}
+                                style={{ marginLeft: "345px" }}
                               >
                                 <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
                               </div>
@@ -424,7 +302,7 @@ export default function Biology() {
                           style={{
                             borderRadius: "20px 20px 0 0",
                             height: "140px",
-                            width: "400px",
+                            width: "600px",
                           }}
                         >
                           <div
@@ -437,8 +315,8 @@ export default function Biology() {
                             className="d-flex justify-content-start"
                             style={{}}
                           >
-                            <span className="fs-4 bg-danger" style={{ color: "black" , marginRight:"60px" , width:"400px" }}>
-                              07 අණුක විද්‍යාව හා ප්‍රතිසංයෝජිත තාක්ෂණය
+                            <span className="fs-4" style={{ color: "black" }}>
+                              05 ගුරුත්වජ ක්ෂේත්‍රය
                             </span>
                           </div>
 
@@ -447,32 +325,32 @@ export default function Biology() {
                             style={{
                               marginLeft: "-13px",
                               marginTop: "18px",
-                              width: "392px",
+                              width: "595px",
                               padding: "6px",
                               borderRadius: "0px 0px 10px 10px",
                               backgroundColor: "#e6eeff",
                             }}
                           >
                             <div
-                              className="d-flex "
+                              className="d-flex"
                               style={{
                                 marginTop: "0px",
-                                width: "490px",
+                                width: "580px",
                                 marginLeft: "5px",
                               }}
                             >
-                              <span className="text-danger">
+                              <span className="text-danger ">
                                 බහුවරණ ප්‍රශ්න ගණන
                               </span>
                               <span
                                 className="text-success"
                                 style={{ paddingLeft: "20px" }}
                               >
-                                72
+                                1097
                               </span>
                               <div
                                 className=""
-                                style={{ marginLeft: "130px" }}
+                                style={{ marginLeft: "330px" }}
                               >
                                 <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
                               </div>
@@ -487,7 +365,135 @@ export default function Biology() {
                           style={{
                             borderRadius: "20px 20px 0 0",
                             height: "140px",
-                            width: "400px",
+                            width: "600px",
+                          }}
+                        >
+                          <div
+                            className="d-flex justify-content-start"
+                            style={{}}
+                          >
+                            <span className="fs-5">විෂය ඒකකය</span>
+                          </div>
+                          <div
+                            className="d-flex justify-content-start"
+                            style={{}}
+                          >
+                            <span className="fs-4" style={{ color: "black" }}>
+                              06 ස්ථිති විද්‍යුත් ක්ෂේත්‍රය
+                            </span>
+                          </div>
+
+                          <div
+                            className=""
+                            style={{
+                              marginLeft: "-13px",
+                              marginTop: "18px",
+                              width: "595px",
+                              padding: "6px",
+                              borderRadius: "0px 0px 10px 10px",
+                              backgroundColor: "#e6eeff",
+                            }}
+                          >
+                            <div
+                              className="d-flex "
+                              style={{
+                                marginTop: "0px",
+                                width: "580px",
+                                marginLeft: "5px",
+                              }}
+                            >
+                              <span className="text-danger">
+                                බහුවරණ ප්‍රශ්න ගණන
+                              </span>
+                              <span
+                                className="text-success"
+                                style={{ paddingLeft: "20px" }}
+                              >
+                                231
+                              </span>
+                              <div
+                                className=""
+                                style={{ marginLeft: "345px" }}
+                              >
+                                <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="d-flex justify-content-between">
+                      <div className="" style={{ paddingRight: "20px" }}>
+                        <div
+                          className="card shadow-sm p-3 mb-5 bg-white rounded"
+                          style={{
+                            borderRadius: "20px 20px 0 0",
+                            height: "140px",
+                            width: "600px",
+                          }}
+                        >
+                          <div
+                            className="d-flex justify-content-start"
+                            style={{}}
+                          >
+                            <span className="fs-5">විෂය ඒකකය</span>
+                          </div>
+                          <div
+                            className="d-flex justify-content-start"
+                            style={{}}
+                          >
+                            <span className="fs-4" style={{ color: "black" }}>
+                              07 චුම්භක ක්ෂේත්‍රය
+                            </span>
+                          </div>
+
+                          <div
+                            className=""
+                            style={{
+                              marginLeft: "-13px",
+                              marginTop: "18px",
+                              width: "595px",
+                              padding: "6px",
+                              borderRadius: "0px 0px 10px 10px",
+                              backgroundColor: "#e6eeff",
+                            }}
+                          >
+                            <div
+                              className="d-flex"
+                              style={{
+                                marginTop: "0px",
+                                width: "580px",
+                                marginLeft: "5px",
+                              }}
+                            >
+                              <span className="text-danger ">
+                                බහුවරණ ප්‍රශ්න ගණන
+                              </span>
+                              <span
+                                className="text-success"
+                                style={{ paddingLeft: "20px" }}
+                              >
+                                1097
+                              </span>
+                              <div
+                                className=""
+                                style={{ marginLeft: "330px" }}
+                              >
+                                <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="" style={{ paddingRight: "20px" }}>
+                        <div
+                          className="card shadow-sm p-3 mb-5 bg-white rounded"
+                          style={{
+                            borderRadius: "20px 20px 0 0",
+                            height: "140px",
+                            width: "600px",
                           }}
                         >
                           <div
@@ -510,7 +516,7 @@ export default function Biology() {
                             style={{
                               marginLeft: "-13px",
                               marginTop: "18px",
-                              width: "392px",
+                              width: "595px",
                               padding: "6px",
                               borderRadius: "0px 0px 10px 10px",
                               backgroundColor: "#e6eeff",
@@ -520,7 +526,7 @@ export default function Biology() {
                               className="d-flex "
                               style={{
                                 marginTop: "0px",
-                                width: "490px",
+                                width: "580px",
                                 marginLeft: "5px",
                               }}
                             >
@@ -531,11 +537,11 @@ export default function Biology() {
                                 className="text-success"
                                 style={{ paddingLeft: "20px" }}
                               >
-                                153
+                                231
                               </span>
                               <div
                                 className=""
-                                style={{ marginLeft: "130px" }}
+                                style={{ marginLeft: "345px" }}
                               >
                                 <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
                               </div>
@@ -543,14 +549,16 @@ export default function Biology() {
                           </div>
                         </div>
                       </div>
+                    </div>
 
-                      <div className="">
+                    <div className="d-flex justify-content-between">
+                      <div className="" style={{ paddingRight: "20px" }}>
                         <div
                           className="card shadow-sm p-3 mb-5 bg-white rounded"
                           style={{
                             borderRadius: "20px 20px 0 0",
                             height: "140px",
-                            width: "400px",
+                            width: "600px",
                           }}
                         >
                           <div
@@ -573,32 +581,32 @@ export default function Biology() {
                             style={{
                               marginLeft: "-13px",
                               marginTop: "18px",
-                              width: "392px",
+                              width: "595px",
                               padding: "6px",
                               borderRadius: "0px 0px 10px 10px",
                               backgroundColor: "#e6eeff",
                             }}
                           >
                             <div
-                              className="d-flex "
+                              className="d-flex"
                               style={{
                                 marginTop: "0px",
-                                width: "490px",
+                                width: "580px",
                                 marginLeft: "5px",
                               }}
                             >
-                              <span className="text-danger">
+                              <span className="text-danger ">
                                 බහුවරණ ප්‍රශ්න ගණන
                               </span>
                               <span
                                 className="text-success"
                                 style={{ paddingLeft: "20px" }}
                               >
-                                12
+                                1097
                               </span>
                               <div
                                 className=""
-                                style={{ marginLeft: "130px" }}
+                                style={{ marginLeft: "330px" }}
                               >
                                 <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
                               </div>
@@ -606,16 +614,14 @@ export default function Biology() {
                           </div>
                         </div>
                       </div>
-                    </div>
 
-                    <div className="d-flex justify-content-between">
                       <div className="" style={{ paddingRight: "20px" }}>
                         <div
                           className="card shadow-sm p-3 mb-5 bg-white rounded"
                           style={{
                             borderRadius: "20px 20px 0 0",
                             height: "140px",
-                            width: "400px",
+                            width: "600px",
                           }}
                         >
                           <div
@@ -638,7 +644,7 @@ export default function Biology() {
                             style={{
                               marginLeft: "-13px",
                               marginTop: "18px",
-                              width: "392px",
+                              width: "595px",
                               padding: "6px",
                               borderRadius: "0px 0px 10px 10px",
                               backgroundColor: "#e6eeff",
@@ -648,7 +654,7 @@ export default function Biology() {
                               className="d-flex "
                               style={{
                                 marginTop: "0px",
-                                width: "490px",
+                                width: "580px",
                                 marginLeft: "5px",
                               }}
                             >
@@ -659,11 +665,11 @@ export default function Biology() {
                                 className="text-success"
                                 style={{ paddingLeft: "20px" }}
                               >
-                                44
+                                231
                               </span>
                               <div
                                 className=""
-                                style={{ marginLeft: "130px" }}
+                                style={{ marginLeft: "345px" }}
                               >
                                 <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
                               </div>
@@ -671,14 +677,16 @@ export default function Biology() {
                           </div>
                         </div>
                       </div>
+                    </div>
 
-                      <div className="" style={{ paddingRight: "179px" }}>
+                    <div className="d-flex justify-content-between">
+                      <div className="" style={{ paddingRight: "20px" }}>
                         <div
                           className="card shadow-sm p-3 mb-5 bg-white rounded"
                           style={{
                             borderRadius: "20px 20px 0 0",
                             height: "140px",
-                            width: "400px",
+                            width: "600px",
                           }}
                         >
                           <div
@@ -701,32 +709,32 @@ export default function Biology() {
                             style={{
                               marginLeft: "-13px",
                               marginTop: "18px",
-                              width: "392px",
+                              width: "595px",
                               padding: "6px",
                               borderRadius: "0px 0px 10px 10px",
                               backgroundColor: "#e6eeff",
                             }}
                           >
                             <div
-                              className="d-flex "
+                              className="d-flex"
                               style={{
                                 marginTop: "0px",
-                                width: "490px",
+                                width: "580px",
                                 marginLeft: "5px",
                               }}
                             >
-                              <span className="text-danger">
+                              <span className="text-danger ">
                                 බහුවරණ ප්‍රශ්න ගණන
                               </span>
                               <span
                                 className="text-success"
                                 style={{ paddingLeft: "20px" }}
                               >
-                                47
+                                1097
                               </span>
                               <div
                                 className=""
-                                style={{ marginLeft: "130px" }}
+                                style={{ marginLeft: "330px" }}
                               >
                                 <i className="bx bxs-right-arrow-circle fs-3 text-info"></i>
                               </div>
