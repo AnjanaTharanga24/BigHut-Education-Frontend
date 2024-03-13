@@ -258,171 +258,191 @@ export default function Contents() {
   };
 
   return (
-    
-
-
-<div className="layout-wrapper layout-content-navbar">
-<div className="layout-container" style={{ backgroundColor: "white" }}>
-<Sidebar />
-  <section className="home">
-    <div className="content" content>
-      <div style={{ paddingRight: "300px" }}>
-        <div className="mt-4 mb-4"></div>
-        <div className="content-body" style={{marginLeft:"-50px"}}>
-        <div>
-      <div className="d-flex justify-content-center ">
-        <div className="" style={{ width: "400px", marginRight: "1000px" }}>
-          <div className="" style={{ width: "700px" }}>
-            <span className="fs-3 ">
-              INFORMATION AND COMMUNICATION TECHNOLOGY
-            </span>
-          </div>
-          <div className="" style={{ marginRight: "100px" }}>
-            <span className="fs-3">02 පරිගණකයේ පරිණාමය</span>
-          </div>
-        </div>
-      </div>
-      <div
-        className="card shadow-lg mb-5 rounded"
-        style={{ borderRadius: "20px 20px 0 0" }}
-      >
-        <div className="card-body ">
-          <div>
-            <div className=" ">
-              <div className="head p-2">
-                <span
-                  className="mcq10f10"
-                  style={{ fontWeight: "bold", fontSize: "20px" }}
-                >
-                  MCQ {currentQuestion} of {questions.length}
-                </span>
-              </div>
-
-              <div>
-                <div
-                  className=" d-flex justify-content-between"
-                  style={{ marginTop: "20px" }}
-                >
-                  <div>
-                    {currentQuestion > 1 && ( // Check if it's not the first question
-                      <button
-                        className="btn btn-outline-danger rounded-pill "
-                        onClick={handlePreviousQuestion}
-                      >
-                        <FontAwesomeIcon icon={faArrowLeft} />{" "}
-                        <span
-                          className="mx-2"
-                          style={{ fontWeight: "bold", fontSize: "15px" }}
-                        >
-                          PREVIOUS MCQ
-                        </span>
-                      </button>
-                    )}
-                  </div>
-
-                  <div className="fs-5" style={{ marginBottom: "-80px" }}>
-                    {handleWrongAnswerFeedback()}
-                  </div>
-
-                  <div>
-                    <button
-                      className="btn btn-outline-success rounded-pill"
-                      onClick={handleNextQuestion}
-                      disabled={currentQuestion === questions.length}
+    <div className="layout-wrapper layout-content-navbar">
+      <div className="layout-container" style={{ backgroundColor: "white" }}>
+        <Sidebar />
+        <section className="home">
+          <div className="content" content>
+            <div style={{ paddingRight: "300px" }}>
+              <div className="mt-4 mb-4"></div>
+              <div className="content-body" style={{ marginLeft: "-50px" }}>
+                <div>
+                  <div className="d-flex justify-content-center ">
+                    <div
+                      className=""
+                      style={{ width: "400px", marginRight: "1000px" }}
                     >
-                      <span
-                        className="mx-2"
-                        style={{ fontWeight: "bold", fontSize: "15px" }}
-                      >
-                        {" "}
-                        NEXT MCQ{" "}
-                      </span>{" "}
-                      <FontAwesomeIcon icon={faArrowRight} />
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              <div className="bg-dark shadow-sm p-2 mt-4 bg-white rounded">
-                <div className="p-2 fs-4" style={{ textAlign: "justify" }}>
-                  {questions[currentQuestion - 1].question}
-                </div>
-                {questions[currentQuestion - 1].image && (
-                  <div className="mb-4 p-3 d-flex justify-content-start">
-                    {questions[currentQuestion - 1].image}
-                  </div>
-                )}
-                <div
-                  className="mb-4 p-2 d-flex flex-column  "
-                  style={{ textAlign: "justify" }}
-                >
-                  {questions[currentQuestion - 1].options.map(
-                    (option, index) => (
-                      <label className="mt-2 d-flex flex-nowrap " key={index}>
-                        <input
-                          className="radio-button me-2"
-                          type="radio"
-                          name="option"
-                          value={option}
-                          checked={selectedAnswer === index}
-                          onChange={() => handleOptionSelect(index)}
-                        />
-                        <span className="fs-4" style={{ marginTop: "-5px" }}>
-                          {option}
+                      <div className="" style={{ width: "700px" }}>
+                        <span className="fs-3 ">
+                          INFORMATION AND COMMUNICATION TECHNOLOGY
                         </span>
-                      </label>
-                    )
-                  )}
-                </div>
-              </div>
-
-              {/* Display correct answer feedback */}
-            </div>
-
-            <div
-              className=" d-flex justify-content-between "
-              style={{ marginTop: "30px" }}
-            >
-              <button
-                className={`btn ${
-                  bookmarked ? "btn-outline-danger" : "btn-outline-warning"
-                } rounded-pill`}
-                onClick={handleBookmarkToggle}
-              >
-                <FontAwesomeIcon icon={faHeart} />{" "}
-                <span
-                  className="mx-2"
-                  style={{ fontWeight: "bold", fontSize: "15px" }}
-                >
-                  {bookmarked ? "REMOVE" : "BOOKMARK"}
-                </span>
-              </button>
-              <div className="d-flex align-items-center">
-                <button
-                  className="btn btn-outline-info rounded-pill"
-                  onClick={() => setCorrectAnswerSelected(true)} // Set correct answer selected status
-                >
-                  <FontAwesomeIcon icon={faHandPointLeft} />{" "}
-                  <span
-                    className="mx-2"
-                    style={{ fontWeight: "bold", fontSize: "15px" }}
+                      </div>
+                      <div className="" style={{ marginRight: "100px" }}>
+                        <span className="fs-3">02 පරිගණකයේ පරිණාමය</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="card shadow-lg mb-5 rounded"
+                    style={{ borderRadius: "20px 20px 0 0" }}
                   >
-                    හරි වැරදි බලන්න
-                  </span>
-                </button>
+                    <div className="card-body ">
+                      <div>
+                        <div className=" ">
+                          <div className="head p-2">
+                            <span
+                              className="mcq10f10"
+                              style={{ fontWeight: "bold", fontSize: "20px" }}
+                            >
+                              MCQ {currentQuestion} of {questions.length}
+                            </span>
+                          </div>
+
+                          <div>
+                            <div
+                              className=" d-flex justify-content-between"
+                              style={{ marginTop: "20px" }}
+                            >
+                              <div>
+                                {currentQuestion > 1 && ( // Check if it's not the first question
+                                  <button
+                                    className="btn btn-outline-danger rounded-pill "
+                                    onClick={handlePreviousQuestion}
+                                  >
+                                    <FontAwesomeIcon icon={faArrowLeft} />{" "}
+                                    <span
+                                      className="mx-2"
+                                      style={{
+                                        fontWeight: "bold",
+                                        fontSize: "15px",
+                                      }}
+                                    >
+                                      PREVIOUS MCQ
+                                    </span>
+                                  </button>
+                                )}
+                              </div>
+
+                              <div
+                                className="fs-5"
+                                style={{ marginBottom: "-80px" }}
+                              >
+                                {handleWrongAnswerFeedback()}
+                              </div>
+
+                              <div>
+                                <button
+                                  className="btn btn-outline-success rounded-pill"
+                                  onClick={handleNextQuestion}
+                                  disabled={
+                                    currentQuestion === questions.length
+                                  }
+                                >
+                                  <span
+                                    className="mx-2"
+                                    style={{
+                                      fontWeight: "bold",
+                                      fontSize: "15px",
+                                    }}
+                                  >
+                                    {" "}
+                                    NEXT MCQ{" "}
+                                  </span>{" "}
+                                  <FontAwesomeIcon icon={faArrowRight} />
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div className=" shadow-sm p-2 mt-4 bg-white rounded" style={{color:"black"}}>
+                            <div
+                              className="p-2 fs-4"
+                              style={{ textAlign: "justify" }}
+                            >
+                              {questions[currentQuestion - 1].question}
+                            </div>
+                            {questions[currentQuestion - 1].image && (
+                              <div className="mb-4 p-3 d-flex justify-content-start">
+                                {questions[currentQuestion - 1].image}
+                              </div>
+                            )}
+                            <div
+                              className="mb-4 p-2 d-flex flex-column  "
+                              style={{ textAlign: "justify" }}
+                            >
+                              {questions[currentQuestion - 1].options.map(
+                                (option, index) => (
+                                  <label
+                                    className="mt-2 d-flex flex-nowrap "
+                                    key={index}
+                                  >
+                                    <input
+                                      className="radio-button me-2"
+                                      type="radio"
+                                      name="option"
+                                      value={option}
+                                      checked={selectedAnswer === index}
+                                      onChange={() => handleOptionSelect(index)}
+                                    />
+                                    <span
+                                      className="fs-4"
+                                      style={{ marginTop: "-5px" }}
+                                    >
+                                      {option}
+                                    </span>
+                                  </label>
+                                )
+                              )}
+                            </div>
+                          </div>
+
+                          {/* Display correct answer feedback */}
+                        </div>
+
+                        <div
+                          className=" d-flex justify-content-between "
+                          style={{ marginTop: "30px" }}
+                        >
+                          <button
+                            className={`btn ${
+                              bookmarked
+                                ? "btn-outline-danger"
+                                : "btn-outline-warning"
+                            } rounded-pill`}
+                            onClick={handleBookmarkToggle}
+                          >
+                            <FontAwesomeIcon icon={faHeart} />{" "}
+                            <span
+                              className="mx-2"
+                              style={{ fontWeight: "bold", fontSize: "15px" }}
+                            >
+                              {bookmarked ? "REMOVE" : "BOOKMARK"}
+                            </span>
+                          </button>
+                          <div className="d-flex align-items-center">
+                            <button
+                              className="btn btn-outline-info rounded-pill"
+                              onClick={() => setCorrectAnswerSelected(true)} // Set correct answer selected status
+                            >
+                              <FontAwesomeIcon icon={faHandPointLeft} />{" "}
+                              <span
+                                className="mx-2"
+                                style={{ fontWeight: "bold", fontSize: "15px" }}
+                              >
+                                හරි වැරදි බලන්න
+                              </span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
     </div>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
-</div>
-
-
   );
 }
